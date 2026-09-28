@@ -1,0 +1,2553 @@
+task,condition,pred,gold,correct,raw
+gsm8k,direct,375,400,False,The answer is 375.
+gsm8k,direct,45,25,False,The answer is 45.
+gsm8k,direct,6,3,False,The answer is 6.
+gsm8k,direct,700,800,False,The answer is 700.
+gsm8k,direct,13,5,False,The answer is 13.
+gsm8k,direct,6,13,False,The answer is 6.
+gsm8k,direct,8,8,True,The answer is 8.
+gsm8k,direct,34,30,False,The answer is 34.
+gsm8k,direct,50,145,False,The answer is 50.
+gsm8k,direct,10,20,False,The answer is 10.
+gsm8k,direct,90,90,True,The answer is 90.
+gsm8k,direct,16.80,7,False,The answer is 16.80.
+gsm8k,direct,38,104,False,The answer is 38.
+gsm8k,direct,15,5,False,The answer is 15.
+gsm8k,direct,15,25,False,The answer is 15.
+gsm8k,direct,240,96,False,The answer is 240.
+gsm8k,direct,450,296,False,The answer is 450.
+gsm8k,direct,26,26,True,The answer is 26.
+gsm8k,direct,58,52,False,The answer is 58.
+gsm8k,direct,120,150,False,The answer is 120.
+gsm8k,direct,20,2,False,The answer is 20.
+gsm8k,direct,10,5,False,The answer is 10.
+gsm8k,direct,96,144,False,The answer is 96.
+gsm8k,direct,375,490,False,The answer is 375.
+gsm8k,direct,200,320,False,The answer is 200.
+gsm8k,direct,12,144,False,The answer is 12.
+gsm8k,direct,15,15,True,The answer is 15.
+gsm8k,direct,30,30,True,The answer is 30.
+gsm8k,direct,4,7,False,The answer is 4.
+gsm8k,direct,25,225,False,The answer is 25.
+gsm8k,direct,2,8,False,The answer is 2.
+gsm8k,direct,16,22,False,The answer is 16.
+gsm8k,direct,3,8,False,The answer is 3.
+gsm8k,direct,62,56,False,The answer is 62.
+gsm8k,direct,40,30,False,The answer is 40.
+gsm8k,direct,250,250,True,The answer is 250.
+gsm8k,direct,107,9,False,The answer is 107.
+gsm8k,direct,90000,90000,True,The answer is 90000.
+gsm8k,direct,2,1,False,The answer is 2.
+gsm8k,direct,1860,480,False,The answer is 1860.
+gsm8k,direct,285,288,False,The answer is 285.
+gsm8k,direct,38,40,False,The answer is 38.
+gsm8k,direct,1660,18000,False,The answer is 1660.
+gsm8k,direct,14,14,True,The answer is 14.
+gsm8k,direct,10,12,False,The answer is 10.
+gsm8k,direct,9000,17500,False,The answer is 9000.
+gsm8k,direct,50,67,False,The answer is 50.
+gsm8k,direct,150,20,False,The answer is 150.
+gsm8k,direct,74,98,False,The answer is 74.
+gsm8k,direct,2,4,False,The answer is 2.
+gsm8k,zeroshot_cot,400,400,True,"Sure, let's break it down step by step:
+
+1. Carmen has $100.
+2. Samantha has $25 more than Carmen, so Samantha has \(100 + 25 = 125\) dollars.
+3. Daisy has $50 more than Samantha, so Daisy has \(125 + 50 = 175\) dollars.
+
+Now, to find out how much all three girls have combined, we add their amounts together:
+
+\[100 + 125 + 175 = 400\]
+
+So, the total amount of money that Carmen, Samantha, and Daisy have combined is $400.
+
+The answer is 400."
+gsm8k,zeroshot_cot,25,25,True,"Sure, let's break this down step by step.
+
+1. **Cat's Eating Time**: The cat eats 9 sausages in 30 minutes.
+
+2. **Dog's Eating Time**: The dog can eat the same 9 sausages in \(\frac{2}{3}\) of the time it takes the cat. So, we need to calculate \(\frac{2}{3} \times 30\) minutes.
+
+   \[
+   \frac{2}{3} \times 30 = 20 \text{ minutes}
+   \]
+
+   Therefore, the dog eats 9 sausages in 20 minutes.
+
+3. **Average Time Calculation**: To find the average time both the cat and the dog take to eat the sausages, we add their times together and divide by 2.
+
+   \[
+   \text{Total time} = 30 \text{ minutes (cat)} + 20 \text{ minutes (dog)} = 50 \text{ minutes}
+   \]
+
+   \[
+   \text{Average time} = \frac{50 \text{ minutes}}{2} = 25 \text{ minutes}
+   \]
+
+The answer is 25."
+gsm8k,zeroshot_cot,3,3,True,"age age of the group.
+   \[ C = 2 \times \frac{A + B + C + D}{4} \]
+
+First, substitute the known values of \( A \) and \( B \) into the total age equation:
+\[ 3 + 4 + C + D = 20 \]
+\[ 7 + C + D = 20 \]
+\[ C + D = 13 \]
+
+Next, use the information about Helene's age being twice the average age of the group:
+\[ C = 2 \times \frac{3 + 4 + C + D}{4} \]
+\[ C = 2 \times \frac{7 + C + D}{4} \]
+\[ C = \frac{2(7 + C + D)}{4} \]
+\[ C = \frac{14 + 2C + 2D}{4} \]
+\[ 4C = 14 + 2C + 2D \]
+\[ 4C - 2C = 14 + 2D \]
+\[ 2C = 14 + 2D \]
+\[ C = 7 + D \]
+
+Now we have two equations involving \( C \) and \( D \):
+\[ C + D = 13 \]
+\[ C = 7 + D \]
+
+Substitute \( C = 7 + D \) into the first equation:
+\[ (7 + D) + D = 13 \]
+\[ 7 + 2D = 13 \]
+\[ 2D = 6 \]
+\[ D = 3 \]
+
+So, Wilfred's age is \( D = 3 \).
+
+The answer is 3."
+gsm8k,zeroshot_cot,800,800,True," to calculate the total number of calories Hannah burns during her activities.
+
+1. For aerobics:
+   - She spends 2 hours doing aerobics.
+   - Each hour of aerobics burns 500 calories.
+   - So, in 2 hours, she burns \(2 \times 500 = 1000\) calories.
+
+2. For running:
+   - She spends 1 hour running.
+   - Each hour of running burns 600 calories.
+   - So, in 1 hour, she burns \(1 \times 600 = 600\) calories.
+
+3. Total calories burned:
+   - Aerobics + Running = \(1000 + 600 = 1600\) calories.
+
+Now, we know that Hannah needs to drink 100 ml of water for every 200 calories she burns.
+
+4. Calculate the amount of water needed:
+   - For every 200 calories, she needs 100 ml of water.
+   - For 1600 calories, she needs \(\frac{1600}{200} \times 100 = 8 \times 100 = 800\) ml of water.
+
+The answer is 800."
+gsm8k,zeroshot_cot,5,5,True,"Sure, let's break it down step by step:
+
+1. **Bethany's Laps**: Bethany can run 10 laps in one hour.
+
+2. **Trey's Laps**: Trey can run 4 more laps than Bethany. So, Trey runs \(10 + 4 = 14\) laps in one hour.
+
+3. **Shaelyn's Laps**: Shaelyn can run half as many laps as Trey. So, Shaelyn runs \(\frac{14}{2} = 7\) laps in one hour.
+
+4. **Quinn's Laps**: Quinn can run 2 fewer laps than Shaelyn. So, Quinn runs \(7 - 2 = 5\) laps in one hour.
+
+5. **Difference Between Bethany and Quinn's Laps**: To find out how many more laps Bethany can run compared to Quinn, we subtract Quinn's laps from Bethany's laps: \(10 - 5 = 5\).
+
+So, Bethany can run 5 more laps compared to Quinn.
+
+The answer is 5."
+gsm8k,zeroshot_cot,13,13,True,"is \(7 \text{ lemons/year} \times \$1.5/\text{lemon} = \$10.5\) per year.
+
+We need to find out when the total revenue from selling lemons will exceed the initial cost plus the cumulative annual costs.
+
+Let's denote the number of years as \(n\).
+
+- Total cost after \(n\) years = Initial cost + Annual cost * \(n\) = \(90 + 3n\).
+- Total revenue after \(n\) years = Annual revenue * \(n\) = \(10.5n\).
+
+Carlos starts earning money when the total revenue exceeds the total cost:
+
+\[10.5n > 90 + 3n\]
+
+Subtract \(3n\) from both sides:
+
+\[7.5n > 90\]
+
+Divide both sides by 7.5:
+
+\[n > \frac{90}{7.5} = 12\]
+
+So, it takes more than 12 years for Carlos to start earning money. Since we're looking for the first full year where this condition is met, we round up to the next whole number.
+
+The answer is 13."
+gsm8k,zeroshot_cot,8,8,True,"To find the average price Deepa paid per ticket, we need to follow these steps:
+
+1. Determine the total number of tickets Deepa saw.
+2. Divide the total amount of money spent by the total number of tickets.
+
+First, let's calculate the total number of tickets Deepa saw. Since there are 9 Fast and the Furious movies and she saw each one 3 times, the total number of tickets is:
+\[ 9 \text{ movies} \times 3 \text{ times per movie} = 27 \text{ tickets} \]
+
+Next, we know that Deepa spent $216 on all the tickets. To find the average price per ticket, we divide the total amount spent by the total number of tickets:
+\[ \frac{216 \text{ dollars}}{27 \text{ tickets}} = 8 \text{ dollars per ticket} \]
+
+So, the average price Deepa paid per ticket is:
+The answer is 8."
+gsm8k,zeroshot_cot,30,30,True,"Sure, let's break it down step by step:
+
+1. **Initial number of elves hired:** Nissa initially hires 60 elves.
+
+2. **Elves quitting due to children vomiting:** A third of the elves quit. So, we calculate one-third of 60:
+   \[
+   \frac{1}{3} \times 60 = 20
+   \]
+   This means 20 elves quit.
+
+3. **Number of elves remaining after some quit:** Subtract the number of elves who quit from the initial number:
+   \[
+   60 - 20 = 40
+   \]
+   So, there are 40 elves left.
+
+4. **Elves quitting due to being kicked:** Then, 10 more elves quit. We subtract these from the remaining number:
+   \[
+   40 - 10 = 30
+   \]
+
+So, the number of elves left is 30.
+
+The answer is 30."
+gsm8k,zeroshot_cot,20,145,False," break down the problem step by step.
+
+1. **Determine the cost of half a dozen plates:**
+   - The cost of half a dozen plates is given as $6000.
+
+2. **Calculate the cost of twenty dozen cups:**
+   - We know that twenty dozen cups cost $1200 less than the cost of half a dozen plates.
+   - So, the cost of twenty dozen cups = $6000 - $1200 = $4800.
+
+3. **Find the cost per dozen for the cups:**
+   - Since twenty dozen cups cost $4800, we can find the cost of one dozen cups by dividing the total cost by 20.
+   - Cost per dozen cups = $4800 / 20 = $240.
+
+4. **Calculate the cost per individual cup:**
+   - Since one dozen equals 12 cups, the cost per cup is the cost per dozen divided by 12.
+   - Cost per cup = $240 / 12 = $20.
+
+Therefore, the total cost of buying each cup is $20. The answer is 20."
+gsm8k,zeroshot_cot,20,20,True,"Let's break down the problem step by step:
+
+1. Griffin starts with 24 fries.
+2. Kyle takes 5 fries, so Griffin has \(24 - 5 = 19\) fries left.
+3. Billy takes twice as many as Kyle, which means Billy takes \(2 \times 5 = 10\) fries. So now Griffin has \(19 - 10 = 9\) fries left.
+4. Let's say Ginger gives Griffin \(x\) fries. Then Griffin has \(9 + x\) fries.
+5. Colby takes 3 less than what Kyle took, which is \(5 - 3 = 2\) fries. So Griffin ends up with \(9 + x - 2 = 7 + x\) fries.
+6. We know that at the end, Griffin has 27 fries. Therefore, we can set up the equation:
+   \[
+   7 + x = 27
+   \]
+7. Solving for \(x\):
+   \[
+   x = 27 - 7 = 20
+   \]
+
+So, Ginger gave Griffin 20 fries.
+
+The answer is 20."
+gsm8k,zeroshot_cot,90,90,True,"Sure, let's break down the problem step by step:
+
+1. Johnny starts with an allowance of $20.
+2. He adds an extra $10 to it.
+3. The total amount he has now is $20 + $10 = $30.
+4. This amount triples in a year.
+
+To find out how much money Johnny has after a year, we need to multiply the current amount by 3:
+$30 * 3 = $90.
+
+So, the answer is $90."
+gsm8k,zeroshot_cot,12.00,7,False,"Sure, let's break it down step by step:
+
+1. **Determine the cost of one candy:** We know that four candies cost $3.20. So, the cost of one candy is:
+   \[
+   \frac{3.20}{4} = 0.80 \text{ dollars}
+   \]
+
+2. **Calculate the cost of 10 lollipops:** Each lollipop costs $0.40, so the cost of 10 lollipops is:
+   \[
+   10 \times 0.40 = 4.00 \text{ dollars}
+   \]
+
+3. **Calculate the cost of 10 candies:** Each candy costs $0.80, so the cost of 10 candies is:
+   \[
+   10 \times 0.80 = 8.00 \text{ dollars}
+   \]
+
+4. **Add the cost of the lollipops and candies together:** The total cost for 10 lollipops and 10 candies is:
+   \[
+   4.00 + 8.00 = 12.00 \text{ dollars}
+   \]
+
+Therefore, the answer is 12.00."
+gsm8k,zeroshot_cot,104,104,True,"Let's break down the problem step by step:
+
+1. **Initial Games**: Steve receives 5 games on his birthday.
+2. **First Year**: He buys 1 game per month for 12 months, so he adds \(1 \times 12 = 12\) games.
+3. **Second Year**: He buys 2 games per month for 12 months, so he adds \(2 \times 12 = 24\) games.
+4. **Third Year**: He buys 4 games per month for 12 months, so he adds \(4 \times 12 = 48\) games.
+5. **Christmas Gifts**: He receives 5 games each year for 3 years, so he adds \(5 \times 3 = 15\) games.
+
+Now, let's sum all these up:
+
+- Initial games: 5
+- First year games: 12
+- Second year games: 24
+- Third year games: 48
+- Christmas games: 15
+
+Total number of games = \(5 + 12 + 24 + 48 + 15 = 104\).
+
+The answer is 104."
+gsm8k,zeroshot_cot,5,5,True,"Let's break down the problem step by step:
+
+1. **Total number of cars initially**: There are 30 cars on the motorway at the start.
+
+2. **Cars that take an exit**: 5 cars leave the motorway and do not participate in the traffic jam.
+
+   So, the number of cars left in the traffic jam is \(30 - 5 = 25\).
+
+3. **Cars that drive through in the last 15 minutes**: We know that 20 cars drive through in the last 15 minutes of the traffic jam.
+
+4. **Cars that drive through in the first 15 minutes**: Since the total number of cars in the traffic jam is 25 and 20 cars drive through in the last 15 minutes, the number of cars that must have driven through in the first 15 minutes is \(25 - 20 = 5\).
+
+Therefore, the answer is <5>."
+gsm8k,zeroshot_cot,25,25,True,"Let's break down the problem step by step:
+
+1. **First Street**: There are 5 children following the ice cream truck.
+   
+2. **Second Street**: Each of the 5 children is joined by another child. So, the number of children doubles:
+   - \(5 \times 2 = 10\) children.
+
+3. **Third Street**: Each of the 10 children is joined by another 2 children. This means each child is joined by 2 more children, so the number of children becomes:
+   - \(10 + (10 \times 2) = 10 + 20 = 30\) children.
+
+4. **Children Leave**: The original 5 children then leave the group. We need to subtract these 5 children from the total:
+   - \(30 - 5 = 25\) children.
+
+So, the number of children now following the truck is 25. 
+
+The answer is 25."
+gsm8k,zeroshot_cot,96,96,True,"Sure, let's break this problem down step by step:
+
+1. **Total length of the tree**: The tree is 80 feet long.
+2. **Length usable for logs**: John can make logs from 80% of the tree. So, the usable length is \(80 \times 0.8 = 64\) feet.
+3. **Number of 4-foot logs**: Since each log is 4 feet long, the number of logs John can get is \(64 \div 4 = 16\) logs.
+4. **Number of planks per log**: From each log, John can cut 5 planks. Therefore, the total number of planks is \(16 \times 5 = 80\) planks.
+5. **Revenue from selling planks**: Each plank is sold for $1.2. So, the total revenue is \(80 \times 1.2 = 96\) dollars.
+
+Therefore, the answer is 96."
+gsm8k,zeroshot_cot,296,296,True,"Sure, let's break down the costs step by step:
+
+1. **Hotel Cost**: 
+   - Helen stayed for 3 nights.
+   - Each night costs $80.
+   - Total hotel cost = 3 nights * $80/night = $240.
+
+2. **Bus Travel Cost**:
+   - Helen took the bus 7 times.
+   - Each bus trip costs 10% of the price of one night at the hotel.
+   - The cost of one bus trip = 10% of $80 = $8.
+   - Total bus travel cost = 7 trips * $8/trip = $56.
+
+3. **Total Cost**:
+   - Total cost = Hotel cost + Bus travel cost.
+   - Total cost = $240 + $56 = $296.
+
+The answer is 296."
+gsm8k,zeroshot_cot,26,26,True,"To determine how much more Keegan and Tashay need to earn to reach their goal, we can follow these steps:
+
+1. Calculate the total amount earned by both Keegan and Tashay by adding their individual earnings together.
+   - Keegan earned $83.
+   - Tashay earned $91.
+   - Total earned = $83 + $91 = $174.
+
+2. Subtract the total amount earned from their goal to find out how much more they need to earn.
+   - Their goal is $200.
+   - Amount still needed = $200 - $174 = $26.
+
+Therefore, the answer is 26."
+gsm8k,zeroshot_cot,52,52,True,"eck per month for the electric bill. Since there are 12 months in a year, this amounts to \(1 \times 12 = 12\) checks per year.
+
+2. **Gas bill**: Similarly, Buford writes one check per month for the gas bill, which also amounts to \(1 \times 12 = 12\) checks per year.
+
+3. **Church**: Buford writes two checks per month to the church. This results in \(2 \times 12 = 24\) checks per year.
+
+4. **Pest and lawn service**: Buford writes one check every quarter (which is every three months) for the pest and lawn service. There are four quarters in a year, so this amounts to \(1 \times 4 = 4\) checks per year.
+
+Now, we add all these together:
+\[ 12 \text{ (electric)} + 12 \text{ (gas)} + 24 \text{ (church)} + 4 \text{ (pest and lawn)} = 52 \]
+
+So, Buford writes 52 checks per year. The answer is 52."
+gsm8k,zeroshot_cot,240,150,False,"Sure, let's break it down step by step:
+
+1. First, we need to determine how many apples Marin eats in one day. According to the problem, Marin eats 4 apples a day.
+2. Next, we calculate how many apples Marin eats in 30 days. Since he eats 4 apples each day, over 30 days he would eat \(4 \times 30 = 120\) apples.
+3. Now, we do the same for Nancy. Nancy also eats 4 apples a day, so over 30 days, she would eat \(4 \times 30 = 120\) apples.
+4. To find out how many apples both of them eat together in 30 days, we add the number of apples eaten by Marin and Nancy. So, \(120 + 120 = 240\).
+
+Therefore, the answer is 240."
+gsm8k,zeroshot_cot,2,2,True,"Let's break down the race times for both teams.
+
+### Team A (Well-rounded team):
+Each member runs 400 meters in exactly 55 seconds.
+- Total time = 4 runners × 55 seconds per runner = 220 seconds
+
+### Team B (Less well-rounded team):
+- First runner runs 400 meters in 60 seconds.
+- Second runner runs 400 meters in 57 seconds (60 - 3).
+- Third runner runs 400 meters in 54 seconds (57 - 3).
+- Fourth runner runs 400 meters in 51 seconds (54 - 3).
+
+Now, let's calculate the total time for Team B:
+- Total time = 60 seconds + 57 seconds + 54 seconds + 51 seconds = 222 seconds
+
+### Comparison:
+Team A's total time: 220 seconds
+Team B's total time: 222 seconds
+
+### Difference in time:
+222 seconds - 220 seconds = 2 seconds
+
+The answer is 2."
+gsm8k,zeroshot_cot,5,5,True,"Let's break down the problem step by step:
+
+1. First, we need to determine the total number of books Sarah bought. We know she spent $300 and each book costs $15. So, we divide the total amount spent by the cost per book:
+   \[
+   \text{Total number of books} = \frac{\$300}{\$15/\text{book}} = 20 \text{ books}
+   \]
+
+2. Next, we need to find out how many books each of her 4 kids received. Since she gave an equal number of books to each child, we divide the total number of books by the number of kids:
+   \[
+   \text{Books per child} = \frac{20 \text{ books}}{4 \text{ children}} = 5 \text{ books/child}
+   \]
+
+Therefore, each child got 5 books.
+
+The answer is 5."
+gsm8k,zeroshot_cot,288,144,False,"Sure, let's break this down step by step:
+
+1. Mario has 6 sled dogs.
+2. Each dog has 4 legs.
+3. Therefore, the total number of legs among the 6 dogs is \(6 \times 4 = 24\) legs.
+4. Snowshoes need to be bought for each leg, so he needs 24 pairs of snowshoes.
+5. Each pair of snowshoes costs $12.00.
+
+Now, to find the total cost:
+\[ 24 \text{ pairs} \times \$12.00 \text{ per pair} = \$288.00 \]
+
+So, the total cost for Mario to buy snowshoes for all of his dogs is $288.00.
+
+The answer is $288."
+gsm8k,zeroshot_cot,490,490,True,"Sure, let's break it down step by step.
+
+1. First, we know that George has 200 bananas.
+2. We also know that George has 45% more pears than bananas. To find out how many pears he has, we need to calculate 45% of the number of bananas and then add that to the number of bananas.
+
+Let's calculate 45% of 200:
+\[ 45\% \text{ of } 200 = 0.45 \times 200 = 90 \]
+
+So, George has 90 more pears than bananas. Since he has 200 bananas, the total number of pears he has is:
+\[ 200 + 90 = 290 \]
+
+Now, to find the total number of fruits George has, we add the number of bananas and the number of pears together:
+\[ 200 \text{ (bananas) } + 290 \text{ (pears) } = 490 \]
+
+Therefore, the answer is 490."
+gsm8k,zeroshot_cot,320,320,True," problem step by step:
+
+1. In the morning, 50 people entered the restaurant.
+2. At around 10:00, 40 more people entered the restaurant.
+3. After a while, twice the number of people who entered at 10:00 came in. Since 40 people entered at 10:00, twice this number would be \(2 \times 40 = 80\) people.
+4. By evening, an additional 3 times as many people as those who entered first (morning group) had entered the restaurant. Since 50 people entered in the morning, three times this number would be \(3 \times 50 = 150\) people.
+
+Now, we add all these groups together:
+- Morning group: 50 people
+- 10:00 group: 40 people
+- Afternoon group: 80 people
+- Evening group: 150 people
+
+So, the total number of people that entered the restaurant on that day is \(50 + 40 + 80 + 150 = 320\).
+
+The answer is 320."
+gsm8k,zeroshot_cot,144,144,True,"t.
+   - Area of one wall = \(5 \text{ ft} \times 8 \text{ ft} = 40 \text{ sq ft}\).
+   - Since there are two such walls (east and west), the total area for these walls is \(2 \times 40 \text{ sq ft} = 80 \text{ sq ft}\).
+
+3. **Calculate the total area to be painted:**
+   - Total area = area of north and south walls + area of east and west walls.
+   - Total area = \(160 \text{ sq ft} + 80 \text{ sq ft} = 240 \text{ sq ft}\).
+
+4. **Determine how many gallons of paint are needed:**
+   - One gallon covers 20 square feet.
+   - Number of gallons needed = \(\frac{240 \text{ sq ft}}{20 \text{ sq ft/gallon}} = 12 \text{ gallons}\).
+
+5. **Calculate the total cost:**
+   - Each gallon costs $12.
+   - Total cost = \(12 \text{ gallons} \times \$12/\text{gallon} = \$144\).
+
+Therefore, the answer is $144."
+gsm8k,zeroshot_cot,15,15,True,"Sure, let's break this down step by step:
+
+1. Eve originally had 20 pieces of pomelos.
+2. After giving some to her friend, she is left with 1/4 of the pomelos she originally had.
+
+To find out how many pomelos Eve has left, we calculate 1/4 of 20:
+\[ \frac{1}{4} \times 20 = 5 \]
+
+So, Eve is left with 5 pomelos after giving some to her friend.
+
+3. To find out how many pomelos Eve gave away, we subtract the number of pomelos she has left from the original number:
+\[ 20 - 5 = 15 \]
+
+Therefore, Eve gave away 15 pomelos.
+
+The answer is 15."
+gsm8k,zeroshot_cot,30,30,True,"Sure, let's break it down step by step:
+
+1. **Nani's Age**: Nani is 8 years old.
+
+2. **Brother's Age**: His brother is twice Nani's age. So, the brother's age is \(2 \times 8 = 16\) years old.
+
+3. **Sister's Age**: Nani's sister is 25% younger than him. This means she is 75% of Nani's age because 100% - 25% = 75%. So, the sister's age is \(8 \times 0.75 = 6\) years old.
+
+4. **Total Age**: Now, we add up the ages of Nani, his brother, and his sister to get the total age.
+   - Nani's age: 8 years
+   - Brother's age: 16 years
+   - Sister's age: 6 years
+
+So, the total age is \(8 + 16 + 6 = 30\) years.
+
+The answer is 30."
+gsm8k,zeroshot_cot,7,7,True,"ol Hours**: Jim chews 1 piece of gum every 2 hours at school. Since the school day lasts 8 hours, he chews \( \frac{8}{2} = 4 \) pieces of gum during school.
+
+2. **Gum Chewed on the Way Home**: Jim chews 1 piece of gum on the way home from school.
+
+3. **Gum Chewed After Dinner**: Jim chews another 1 piece of gum after dinner.
+
+So far, Jim has chewed \( 4 + 1 + 1 = 6 \) pieces of gum.
+
+4. **Remaining Gum**: Jim started with 20 pieces of gum. After chewing 6 pieces, he has \( 20 - 6 = 14 \) pieces left.
+
+5. **Giving Half to His Sister**: Jim gives half of the remaining gum to his sister. So, he gives away \( \frac{14}{2} = 7 \) pieces of gum.
+
+6. **Final Count**: Subtracting the 7 pieces given to his sister from the remaining 14 pieces, Jim has \( 14 - 7 = 7 \) pieces left.
+
+The answer is 7."
+gsm8k,zeroshot_cot,225,225,True,"aur eats 10 lbs of potato salad.
+   - There are 20 adults.
+   - So, the total amount of potato salad needed for adults is \( 20 \text{ adults} \times 10 \text{ lbs/adult} = 200 \text{ lbs} \).
+
+2. **Determine the food requirement for children:**
+   - Each child eats half as much as an adult, so each child eats \( \frac{10 \text{ lbs}}{2} = 5 \text{ lbs} \).
+   - There are 5 children.
+   - So, the total amount of potato salad needed for children is \( 5 \text{ children} \times 5 \text{ lbs/child} = 25 \text{ lbs} \).
+
+3. **Calculate the total amount of potato salad needed:**
+   - The total amount of potato salad needed is the sum of what the adults and children will eat.
+   - Total potato salad needed = \( 200 \text{ lbs} + 25 \text{ lbs} = 225 \text{ lbs} \).
+
+Therefore, the answer is 225."
+gsm8k,zeroshot_cot,8,8,True,"each type of jeans:**
+   - He saved 1/3 of the total savings from the jogger jeans.
+   - So, the savings from the jogger jeans is \( \frac{1}{3} \times \$6 = \$2 \).
+   - The savings from the tattered jeans is the remaining part of the total savings, which is \( \$6 - \$2 = \$4 \).
+
+4. **Calculate the original prices before the sale:**
+   - The sale price of tattered jeans is $28, and he saved $4 on it, so the original price was \( \$28 + \$4 = \$32 \).
+   - The sale price of jogger jeans is $22, and he saved $2 on it, so the original price was \( \$22 + \$2 = \$24 \).
+
+5. **Find the difference in original prices:**
+   - The original price of tattered jeans is $32.
+   - The original price of jogger jeans is $24.
+   - The difference is \( \$32 - \$24 = \$8 \).
+
+Therefore, the answer is <8>."
+gsm8k,zeroshot_cot,22,22,True,"Sure, let's break it down step by step:
+
+1. On Wednesday, John picks 4 bananas.
+2. On Thursday, John picks 6 bananas.
+3. On Friday, John picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks \(3 \times 4 = 12\) bananas.
+
+Now, let's add up all the bananas John picked over the three days:
+- Wednesday: 4 bananas
+- Thursday: 6 bananas
+- Friday: 12 bananas
+
+So, the total number of bananas John has is \(4 + 6 + 12 = 22\).
+
+The answer is 22."
+gsm8k,zeroshot_cot,8,8,True," chocolate bars per box for Martha:**
+   - Martha has 7 boxes.
+   - The total number of chocolate bars Martha has is 56.
+   - To find out how many chocolate bars are in each of Martha's boxes, we divide the total number of chocolate bars by the number of boxes:
+     \[
+     \text{Number of chocolate bars per box for Martha} = \frac{56}{7} = 8
+     \]
+
+3. **Calculate the difference in the number of chocolate bars per box between Peter and Martha:**
+   - We need to find out how many more chocolate bars Peter has in each box compared to Martha.
+   - Subtract the number of chocolate bars per box for Martha from the number of chocolate bars per box for Peter:
+     \[
+     \text{Difference} = 16 - 8 = 8
+     \]
+
+Therefore, Peter has 8 more chocolate bars in each box than Martha. The answer is 8."
+gsm8k,zeroshot_cot,56,56,True," of camels.
+   - Let \( D \) be the number of dromedaries.
+
+2. **Set Up Equations Based on Information Given:**
+   - The total number of heads (which is the same as the total number of animals) is given by:
+     \[
+     C + D = 180
+     \]
+   - The total number of humps is given by:
+     \[
+     2C + D = 304
+     \]
+
+3. **Solve the System of Equations:**
+   - From the first equation, we can express \( C \) in terms of \( D \):
+     \[
+     C = 180 - D
+     \]
+   - Substitute this expression for \( C \) into the second equation:
+     \[
+     2(180 - D) + D = 304
+     \]
+   - Simplify and solve for \( D \):
+     \[
+     360 - 2D + D = 304
+     \]
+     \[
+     360 - D = 304
+     \]
+     \[
+     D = 360 - 304
+     \]
+     \[
+     D = 56
+     \]
+
+So, there are 56 dromedaries.
+
+The answer is 56."
+gsm8k,zeroshot_cot,30,30,True,"Sure, let's break it down step by step:
+
+1. **First side**: It takes John 5 minutes.
+2. **Second side**: It takes twice as long as the first side, so \(5 \times 2 = 10\) minutes.
+3. **Third side**: It also takes twice as long as the first side, so again \(5 \times 2 = 10\) minutes.
+4. **Fourth and fifth sides**: Each takes half as long as the first side, so \(5 \div 2 = 2.5\) minutes each.
+
+Now, we add up the time for all six sides:
+- First side: 5 minutes
+- Second side: 10 minutes
+- Third side: 10 minutes
+- Fourth side: 2.5 minutes
+- Fifth side: 2.5 minutes
+
+Adding these together:
+\[ 5 + 10 + 10 + 2.5 + 2.5 = 30 \]
+
+So, the total time to solve the Rubik's cube is 30 minutes.
+
+The answer is 30."
+gsm8k,zeroshot_cot,250,250,True,"Let's break down the problem step by step:
+
+1. On the first day, Sloane counted 100 customers.
+2. On the second day, she counted 50 more customers than the first day, which means she counted \(100 + 50 = 150\) customers.
+3. By the third day, the total number of customers over the three days was 500.
+
+To find out how many customers Sloane counted on the third day, we need to subtract the number of customers from the first two days from the total number of customers over the three days.
+
+So, the calculation would be:
+\[ \text{Customers on the third day} = 500 - (100 + 150) \]
+\[ \text{Customers on the third day} = 500 - 250 \]
+\[ \text{Customers on the third day} = 250 \]
+
+Therefore, the answer is 250."
+gsm8k,zeroshot_cot,9,9,True,"times 8 = 40
+   \]
+
+3. **Calculate the total number of chairs currently available:** This is the sum of the high chairs and the regular chairs.
+   \[
+   \text{Total current chairs} = \text{Number of high chairs} + \text{Number of regular chairs} = 8 + 40 = 48
+   \]
+
+4. **Calculate the total number of people attending the function:** There are 42 adults and 15 babies, so the total number of people is:
+   \[
+   \text{Total people} = 42 + 15 = 57
+   \]
+
+5. **Determine the number of additional chairs needed:** Subtract the number of current chairs from the total number of people to find out how many more chairs are needed.
+   \[
+   \text{Additional chairs needed} = \text{Total people} - \text{Total current chairs} = 57 - 48 = 9
+   \]
+
+Therefore, the answer is 9. Mia needs to get 9 more chairs."
+gsm8k,zeroshot_cot,90000,90000,True,"Let's break this down step by step:
+
+1. Let the cost of the lot be \( L \).
+2. The cost of the house is three times the cost of the lot, so the cost of the house is \( 3L \).
+3. Together, the total cost of the house and the lot is $120,000.
+
+So we can write the equation:
+\[ L + 3L = 120,000 \]
+
+Combining like terms gives us:
+\[ 4L = 120,000 \]
+
+To find the value of \( L \), we divide both sides by 4:
+\[ L = \frac{120,000}{4} = 30,000 \]
+
+Since the cost of the house is three times the cost of the lot:
+\[ \text{Cost of the house} = 3L = 3 \times 30,000 = 90,000 \]
+
+Therefore, the house costs $90,000.
+
+The answer is $90,000."
+gsm8k,zeroshot_cot,1,1,True,"Sure, let's break it down step by step:
+
+1. Robyn sends a total of 16 emails a day.
+2. Out of these, 7 are work emails.
+3. The remainder of the emails is \(16 - 7 = 9\).
+4. Two-thirds of the remainder (which is 9) are sent to family. So, the number of emails sent to family is \(\frac{2}{3} \times 9 = 6\).
+5. The remaining emails after accounting for work and family emails are \(9 - 6 = 3\).
+6. One-third of these remaining emails are sent to her boyfriend. So, the number of emails sent to her boyfriend is \(\frac{1}{3} \times 3 = 1\).
+
+Therefore, the answer is 1."
+gsm8k,zeroshot_cot,480,480,True,"weekly cost:
+\[ \text{Weekly cost} = \text{Total cost per session} \times \text{Number of sessions per week} \]
+\[ \text{Weekly cost} = 40 \times 3 \]
+\[ \text{Weekly cost} = 120 \]
+
+Now, calculate the monthly cost assuming there are 4 weeks in a month:
+\[ \text{Monthly cost} = \text{Weekly cost} \times 4 \]
+\[ \text{Monthly cost} = 120 \times 4 \]
+\[ \text{Monthly cost} = 480 \]
+
+Since the question asks for the expected earnings, we need to consider that the cost calculated above is actually the total cost, not earnings. If we assume the studio charges the same amount as the cost per session to each student, then the earnings would be the same as the cost since no additional income is mentioned.
+
+Therefore, the expected earnings of the dance studio in a month are $480.
+
+The answer is 480."
+gsm8k,zeroshot_cot,288,288,True,"Sure, let's break it down step by step:
+
+1. First, calculate the total number of water balloons filled:
+   - Jolene fills up 10 packs.
+   - Each pack contains 30 balloons.
+   - So, the total number of balloons is \(10 \times 30 = 300\).
+
+2. Next, we know that by the end of the afternoon, there are 12 balloons left.
+
+3. To find out how many balloons were thrown during the water balloon fight, we subtract the number of balloons left from the total number of balloons:
+   - Total balloons - Balloons left = Balloons thrown.
+   - \(300 - 12 = 288\).
+
+So, the number of balloons thrown during the water balloon fight is 288.
+
+The answer is 288."
+gsm8k,zeroshot_cot,40,40,True,"Courtney reported that the audience was 48 people.
+2. Kelly said that this number was overstated by 20%.
+
+To find the actual number of people who attended the concert, we need to determine what 100% (the true number) would be if 48 represented 120% (since it's overstated by 20%).
+
+First, let's set up the equation based on the information given:
+\[ \text{True number} = \frac{\text{Reported number}}{1 + \text{Overstatement percentage}} \]
+
+Here, the reported number is 48, and the overstatement percentage is 20%, which is 0.20 in decimal form. So, the equation becomes:
+\[ \text{True number} = \frac{48}{1 + 0.20} = \frac{48}{1.20} \]
+
+Now, we perform the division:
+\[ \text{True number} = \frac{48}{1.20} = 40 \]
+
+So, the actual number of people who attended the concert is 40.
+
+The answer is 40."
+gsm8k,zeroshot_cot,18000,18000,True,"'s break this down step by step.
+
+1. **Calculate the total minimum monthly payments:**
+   - Student loans: $300/month
+   - Credit card: $200/month
+   - Mortgage: $500/month
+
+   Total minimum monthly payments = $300 + $200 + $500 = $1000/month
+
+2. **Calculate the increased monthly payments (50% more than the minimum):**
+   - Increased monthly payment for student loans: $300 * 1.5 = $450
+   - Increased monthly payment for credit card: $200 * 1.5 = $300
+   - Increased monthly payment for mortgage: $500 * 1.5 = $750
+
+   Total increased monthly payments = $450 + $300 + $750 = $1500/month
+
+3. **Calculate the annual payments:**
+   Since there are 12 months in a year, we multiply the total increased monthly payments by 12.
+
+   Annual payments = $1500 * 12 = $18,000
+
+Therefore, the answer is 18000."
+gsm8k,zeroshot_cot,14,14,True,"mine the number of days in two weeks**: There are 7 days in a week, so in two weeks, there are \(2 \times 7 = 14\) days.
+
+2. **Calculate how many pieces Ginger eats in two weeks**: Ginger eats 4 pieces a day, so in 14 days, she eats \(4 \times 14 = 56\) pieces.
+
+3. **Calculate how many pieces Amy eats in two weeks**: Amy eats 3 pieces a day, so in 14 days, she eats \(3 \times 14 = 42\) pieces.
+
+4. **Calculate how much candy each has left after two weeks**:
+   - Ginger starts with 100 pieces and eats 56 pieces, so she has \(100 - 56 = 44\) pieces left.
+   - Amy starts with 100 pieces and eats 42 pieces, so she has \(100 - 42 = 58\) pieces left.
+
+5. **Find out how much more candy Amy has compared to Ginger**: Amy has \(58 - 44 = 14\) more pieces of candy than Ginger.
+
+So, the answer is <14>."
+gsm8k,zeroshot_cot,12,12,True,"First, let's determine the total number of fruits Kira initially bought:
+
+- Apples: 3
+- Bananas: 5
+- Oranges: 6
+
+Adding these together gives us the total number of fruits:
+\[ 3 + 5 + 6 = 14 \]
+
+Next, we account for the fruits that Lola ate. Lola ate 2 pieces of the fruit, so we subtract this from the total number of fruits:
+\[ 14 - 2 = 12 \]
+
+Therefore, the answer is 12."
+gsm8k,zeroshot_cot,17500,17500,True,"ate the total revenue from selling the cars:**  
+   James sold 10 cars at $25,000 each. So, the total revenue is:
+   \[
+   10 \times \$25,000 = \$250,000
+   \]
+
+2. **Calculate the total cost for the company to acquire the cars:**  
+   The company pays 30% of the price to acquire each car. So, the cost per car is:
+   \[
+   0.30 \times \$25,000 = \$7,500
+   \]
+   For 10 cars, the total acquisition cost is:
+   \[
+   10 \times \$7,500 = \$75,000
+   \]
+
+3. **Calculate the total profit:**  
+   The profit is the total revenue minus the total acquisition cost:
+   \[
+   \$250,000 - \$75,000 = \$175,000
+   \]
+
+4. **Calculate James's commission:**  
+   James gets a 10% commission on the profits. So, his commission is:
+   \[
+   0.10 \times \$175,000 = \$17,500
+   \]
+
+Therefore, the answer is \$17,500."
+gsm8k,zeroshot_cot,67,67,True,"Let's break down the information given:
+
+1. Albert is 36 inches tall.
+2. Anne is twice the size of Albert, so Anne is \(36 \times 2 = 72\) inches tall.
+3. Jackie is now 2 inches shorter than Anne, so Jackie's current height is \(72 - 2 = 70\) inches.
+4. Jackie grew 3 inches over the summer, so her height before the summer was \(70 - 3 = 67\) inches.
+
+The answer is 67."
+gsm8k,zeroshot_cot,20,20,True,"3}{4} \) of the number of people who entered at the first stop (which was 40) enter the bus. So the number of people entering at the second stop is:
+   \[
+   \frac{3}{4} \times 40 = 30
+   \]
+   Now the total number of people on the bus is:
+   \[
+   60 + 30 = 90
+   \]
+
+4. **Doubling the number of people at the third stop:** At the third stop, the number of people on the bus doubles. So the new total number of people on the bus is:
+   \[
+   90 \times 2 = 180
+   \]
+
+5. **Calculating the remaining spaces on the bus:** The bus has a capacity of 200 people. The number of people currently on the bus is 180. Therefore, the number of remaining spaces on the bus is:
+   \[
+   200 - 180 = 20
+   \]
+
+So, the total number of people required to fill the remaining spaces on the bus is 20. The answer is 20."
+gsm8k,zeroshot_cot,98,98,True,"Sure, let's break down the problem step by step.
+
+1. **Determine the cost of a half-gallon jar:**
+   - We know that a gallon jar costs $5 and it costs $2 more than a half-gallon jar.
+   - Therefore, the cost of a half-gallon jar is \( \$5 - \$2 = \$3 \).
+
+2. **Calculate the cost of 10 gallon jars:**
+   - Each gallon jar costs $5.
+   - The total cost for 10 gallon jars is \( 10 \times \$5 = \$50 \).
+
+3. **Calculate the cost of 16 half-gallon jars:**
+   - Each half-gallon jar costs $3.
+   - The total cost for 16 half-gallon jars is \( 16 \times \$3 = \$48 \).
+
+4. **Calculate the total amount spent:**
+   - Add the cost of the gallon jars and the half-gallon jars together.
+   - Total amount spent is \( \$50 + \$48 = \$98 \).
+
+Therefore, the answer is \( \boxed{98} \)."
+gsm8k,zeroshot_cot,4,4,True,"iles all four dogs need to walk in a day based on the average.
+2. Add up the miles needed for the first three dogs.
+3. Subtract the sum from the total miles needed for all four dogs to find out how many miles the last dog needs.
+
+Step 1: Since the average number of miles walked per day by each dog is 3 and there are 4 dogs, the total number of miles needed for all four dogs is:
+\[ 3 \text{ miles/dog} \times 4 \text{ dogs} = 12 \text{ miles} \]
+
+Step 2: Add up the miles needed for the first three dogs:
+\[ 1 \text{ mile} + 4 \text{ miles} + 3 \text{ miles} = 8 \text{ miles} \]
+
+Step 3: Subtract the sum of the first three dogs' miles from the total miles needed:
+\[ 12 \text{ miles} - 8 \text{ miles} = 4 \text{ miles} \]
+
+Therefore, the last dog needs to walk 4 miles per day.
+
+The answer is 4."
+gsm8k,fewshot_cot,400,400,True,"First, let's calculate how much each girl has:
+
+- Carmen has $100.
+- Samantha has $25 more than Carmen, so Samantha has $100 + $25 = $125.
+- Daisy has $50 more than Samantha, so Daisy has $125 + $50 = $175.
+
+Now, let's add up the amounts:
+
+- Carmen + Samantha + Daisy = $100 + $125 + $175 = $400.
+
+So, the answer is 400."
+gsm8k,fewshot_cot,25,25,True,"First, let's determine how long it takes the dog to eat the sausages. Since the dog can eat the same number of sausages in 2/3 the time the cat takes, we calculate:
+
+Time taken by the dog = 30 minutes * (2/3) = 20 minutes.
+
+Now, we need to find the average time both the cat and the dog take to eat the sausages. To do this, we add the times together and then divide by 2:
+
+Average time = (Time taken by the cat + Time taken by the dog) / 2
+Average time = (30 minutes + 20 minutes) / 2
+Average time = 50 minutes / 2
+Average time = 25 minutes.
+
+The answer is 25."
+gsm8k,fewshot_cot,3,3,True,"First, let's find the average age of the group. Since the total age of the four children is 20, the average age is \( \frac{20}{4} = 5 \) years.
+
+Helene is twice as old as this average, so Helene's age is \( 2 \times 5 = 10 \) years.
+
+Now we know the ages of three children:
+- Akbar: 3 years
+- Alessandro: 4 years
+- Helene: 10 years
+
+Let's denote Wilfred's age as \( W \). The total age of all four children is the sum of their individual ages, which equals 20. So we can write the equation:
+
+\[ 3 + 4 + 10 + W = 20 \]
+
+Simplifying the left side gives us:
+
+\[ 17 + W = 20 \]
+
+To find \( W \), we subtract 17 from both sides:
+
+\[ W = 20 - 17 \]
+\[ W = 3 \]
+
+So, Wilfred is 3 years old. The answer is 3."
+gsm8k,fewshot_cot,160000,800,False,"First, we calculate the total calories burned from aerobics and running:
+
+- Aerobics: 2 hours * 500 calories/hour = 1000 calories
+- Running: 1 hour * 600 calories/hour = 600 calories
+
+Total calories burned = 1000 + 600 = 1600 calories
+
+Now, we calculate the amount of water needed based on the calories burned:
+
+Water needed = 100 ml/calorie * 1600 calories = 160,000 ml
+
+Since 1000 ml equals 1 liter, we can convert this to liters if needed, but the question asks for milliliters.
+
+The answer is 160,000 ml."
+gsm8k,fewshot_cot,5,5,True,"First, let's determine how many laps each person can run in one hour:
+
+1. Bethany can run 10 laps.
+2. Trey can run 4 more laps than Bethany, so Trey runs \(10 + 4 = 14\) laps.
+3. Shaelyn can run half as many laps as Trey, so Shaelyn runs \(14 / 2 = 7\) laps.
+4. Quinn can run 2 fewer laps than Shaelyn, so Quinn runs \(7 - 2 = 5\) laps.
+
+Now, we need to find out how many more laps Bethany can run compared to Quinn:
+
+Bethany runs 10 laps, and Quinn runs 5 laps. So, Bethany can run \(10 - 5 = 5\) more laps than Quinn.
+
+The answer is 5."
+gsm8k,fewshot_cot,12,13,False,"irst, let's calculate the net gain from the tree each year after accounting for the initial cost and ongoing expenses.
+
+Each year, the tree grows 7 lemons, and each lemon sells for $1.5, so the annual revenue from selling lemons is:
+\[ 7 \text{ lemons/year} \times \$1.5/\text{lemon} = \$10.5/\text{year} \]
+
+The annual cost to water and feed the tree is $3. Therefore, the net gain per year is:
+\[ \$10.5/\text{year} - \$3/\text{year} = \$7.5/\text{year} \]
+
+Now, we need to determine how many years it will take for the net gains to cover the initial cost of planting the tree ($90). We do this by dividing the initial cost by the net gain per year:
+\[ \$90 / \$7.5/\text{year} = 12 \text{ years} \]
+
+So, it will take 12 years for Carlos to start earning money on the lemon tree.
+
+The answer is 12."
+gsm8k,fewshot_cot,8,8,True,"First, we need to determine the total number of tickets Deepa saw. Since there are 9 Fast and the Furious movies and she saw each one 3 times, the total number of tickets is \(9 \times 3 = 27\).
+
+Next, we know she spent $216 on these tickets. To find the average price per ticket, we divide the total amount spent by the total number of tickets:
+
+\[ \text{Average price per ticket} = \frac{\$216}{27} = \$8 \]
+
+So, the average price she paid per ticket is $8.
+
+The answer is 8."
+gsm8k,fewshot_cot,30,30,True,"First, we calculate how many elves quit after children vomit on them. Since a third of the elves quit, we have:
+
+\[ \text{Number of elves who quit} = \frac{60}{3} = 20 \]
+
+So, the number of elves remaining after this is:
+
+\[ 60 - 20 = 40 \]
+
+Next, 10 of the remaining elves quit after kids kick their shins. So, the number of elves left is:
+
+\[ 40 - 10 = 30 \]
+
+Therefore, the answer is 30."
+gsm8k,fewshot_cot,7.5,145,False,"First, let's break down the problem into parts:
+
+1. **Calculate the cost of half a dozen plates:** Since each dozen plates costs $6000, half a dozen would be half of that amount.
+   \[
+   \text{Cost of half a dozen plates} = \frac{6000}{2} = 3000
+   \]
+
+2. **Determine the cost of twenty dozen cups:** We know that twenty dozen cups cost $1200 less than the cost of half a dozen plates.
+   \[
+   \text{Cost of twenty dozen cups} = 3000 - 1200 = 1800
+   \]
+
+3. **Calculate the cost per cup:** Since twenty dozen cups equal \(20 \times 12 = 240\) cups, we can find the cost per cup by dividing the total cost by the number of cups.
+   \[
+   \text{Cost per cup} = \frac{1800}{240} = 7.5
+   \]
+
+So, the total cost of buying each cup is $7.5. The answer is 7.5."
+gsm8k,fewshot_cot,20,20,True,"Let's break it down:
+
+1. Griffin starts with 24 fries.
+2. Kyle takes 5 fries, so Griffin has 24 - 5 = 19 fries left.
+3. Billy takes twice as many as Kyle, which is 2 * 5 = 10 fries. So Griffin has 19 - 10 = 9 fries left.
+4. Colby takes 3 less than what Kyle took, which is 5 - 3 = 2 fries. So Griffin has 9 - 2 = 7 fries left.
+5. In the end, Griffin has 27 fries.
+
+So, the difference between what Griffin ended up with and what he had before Colby took his share is the number of fries Ginger gave him: 27 - 7 = 20 fries.
+
+Therefore, Ginger gave Griffin 20 fries.
+
+The answer is 20."
+gsm8k,fewshot_cot,90,90,True,"Johnny started with $20 and added an extra $10, so the total amount he had initially was $20 + $10 = $30. This amount tripled in a year, so the final amount he had after a year would be $30 * 3 = $90. 
+
+The answer is 90."
+gsm8k,fewshot_cot,7,7,True,"First, let's calculate the total cost of the lollipops and candies Manolo initially bought:
+
+- Cost of one lollipop = $0.40
+- Cost of five lollipops = 5 * $0.40 = $2.00
+
+Since the total cost for five lollipops and four candies was $3.20, we can find the cost of the four candies:
+
+- Total cost = $3.20
+- Cost of five lollipops = $2.00
+- Cost of four candies = $3.20 - $2.00 = $1.20
+
+Now, we know the cost of one candy:
+
+- Cost of one candy = $1.20 / 4 = $0.30
+
+Next, we calculate the cost of 10 lollipops and 10 candies:
+
+- Cost of 10 lollipops = 10 * $0.40 = $4.00
+- Cost of 10 candies = 10 * $0.30 = $3.00
+
+Finally, we add these two amounts to get the total cost:
+
+- Total cost = $4.00 + $3.00 = $7.00
+
+The answer is 7."
+gsm8k,fewshot_cot,104,104,True,"Let's break it down:
+
+1. **Initial Games on Birthday**: Steve gets 5 games on his birthday.
+2. **Games Bought in the First Year**: He buys 1 game per month for 12 months, which totals 12 games.
+3. **Games Bought in the Second Year**: He buys 2 games per month for 12 months, which totals 24 games.
+4. **Games Bought in the Third Year**: He buys 4 games per month for 12 months, which totals 48 games.
+5. **Games Received for Christmas Each Year**: He receives 5 games each year for 3 years, totaling 15 games.
+
+Now, let's add all these together:
+
+- Initial games: 5
+- Games bought in the first year: 12
+- Games bought in the second year: 24
+- Games bought in the third year: 48
+- Games received for Christmas over three years: 15
+
+Total games = 5 + 12 + 24 + 48 + 15 = 104
+
+The answer is 104."
+gsm8k,fewshot_cot,5,5,True,"Let's break it down:
+
+1. There were originally 30 cars.
+2. 5 cars took an exit, so 30 - 5 = 25 cars remained.
+3. In the second 15 minutes, 20 cars drove through, leaving 25 - 20 = 5 cars.
+4. Therefore, in the first 15 minutes, those 5 cars must have driven through.
+
+So, the number of cars that drove through the traffic jam in the first 15 minutes is 5.
+
+The answer is 5."
+gsm8k,fewshot_cot,25,25,True,"Let's break it down:
+
+1. **First Street:** There are 5 children following the truck.
+   
+2. **Second Street:** Each of the 5 children is joined by another child. So, the number of children doubles:
+   - \(5 \times 2 = 10\) children are now following the truck.
+
+3. **Third Street:** Each of the 10 children is joined by another 2 children:
+   - \(10 + (10 \times 2) = 10 + 20 = 30\) children are now following the truck.
+
+4. **Children Leave:** The original 5 children leave the group:
+   - \(30 - 5 = 25\) children remain following the truck.
+
+So, the answer is 25."
+gsm8k,fewshot_cot,96,96,True,"First, let's calculate the length of wood that can be used to make logs:
+- The usable part of the tree is 80% of 80 feet, which is \(80 \times 0.8 = 64\) feet.
+
+Next, we determine how many 4-foot logs can be made from the usable part:
+- \(64 \div 4 = 16\) logs.
+
+Now, we find out how many planks can be cut from these logs:
+- Each log yields 5 planks, so \(16 \times 5 = 80\) planks.
+
+Finally, we calculate the total earnings from selling the planks:
+- Each plank is sold for $1.2, so \(80 \times 1.2 = 96\).
+
+Therefore, the answer is 96."
+gsm8k,fewshot_cot,296,296,True,"First, let's calculate the cost for the hotel:
+- Cost per night = $80
+- Number of nights = 3
+- Total hotel cost = $80 * 3 = $240
+
+Next, let's calculate the cost for each bus trip:
+- Bus trip cost = 10% of the hotel cost per night
+- Bus trip cost = 0.10 * $80 = $8
+
+Now, let's calculate the total cost for all bus trips:
+- Number of bus trips = 7
+- Total bus cost = $8 * 7 = $56
+
+Finally, let's add the total hotel cost and the total bus cost to find the overall cost of the trip:
+- Total cost = Hotel cost + Bus cost = $240 + $56 = $296
+
+The answer is 296."
+gsm8k,fewshot_cot,26,26,True,"First, let's calculate the total amount earned by Keegan and Tashay together by 3 pm:
+
+Keegan's earnings: $83
+Tasha's earnings: $91
+
+Total earnings by 3 pm: $83 + $91 = $174
+
+Now, subtract this total from their goal of $200 to find out how much more they need to earn:
+
+$200 - $174 = $26
+
+The answer is 26."
+gsm8k,fewshot_cot,52,52,True,"Let's break it down:
+
+- For the electric bill, Buford writes 1 check per month. Over a year, that's \(1 \times 12 = 12\) checks.
+- For the gas bill, Buford also writes 1 check per month. Over a year, that's another \(1 \times 12 = 12\) checks.
+- For the church, Buford writes 2 checks per month. Over a year, that's \(2 \times 12 = 24\) checks.
+- For the pest and lawn service, Buford writes 1 check every quarter (which is 3 months). There are 4 quarters in a year, so that's \(1 \times 4 = 4\) checks.
+
+Adding all these together gives us the total number of checks Buford writes per year:
+\[12 + 12 + 24 + 4 = 52\]
+
+So, the answer is 52."
+gsm8k,fewshot_cot,240,150,False,"Marin eats 4 apples a day, and so does Nancy. Together, they eat 4 + 4 = 8 apples a day. Over 30 days, they would eat 8 * 30 = 240 apples. The answer is 240."
+gsm8k,fewshot_cot,2,2,True," members:
+\[ 55 \text{ seconds/member} \times 4 \text{ members} = 220 \text{ seconds} \]
+
+Now, let's calculate the time taken by the less well-rounded team:
+
+- The first runner runs in 60 seconds.
+- The second runner is 3 seconds faster, so they run in \(60 - 3 = 57\) seconds.
+- The third runner is 3 seconds faster than the second, so they run in \(57 - 3 = 54\) seconds.
+- The fourth runner is 3 seconds faster than the third, so they run in \(54 - 3 = 51\) seconds.
+
+Adding these times together gives the total time for the less well-rounded team:
+\[ 60 + 57 + 54 + 51 = 222 \text{ seconds} \]
+
+Finally, we find the difference between the two teams' times to determine how many seconds the faster team wins by:
+\[ 222 \text{ seconds} - 220 \text{ seconds} = 2 \text{ seconds} \]
+
+The answer is 2."
+gsm8k,fewshot_cot,5,5,True,"First, we need to find out how many books Sarah bought. We do this by dividing the total amount spent by the cost per book:
+
+\[ \text{Number of books} = \frac{\$300}{\$15/\text{book}} = 20 \text{ books} \]
+
+Next, since Sarah gave an equal number of books to her 4 kids, we divide the total number of books by the number of kids:
+
+\[ \text{Books per child} = \frac{20 \text{ books}}{4 \text{ children}} = 5 \text{ books/child} \]
+
+So, each child got 5 books. The answer is 5."
+gsm8k,fewshot_cot,144,144,True,"First, we need to determine the total number of legs among the 6 sled dogs. Since each dog has 4 legs, the total number of legs is:
+
+\[ 6 \text{ dogs} \times 4 \text{ legs per dog} = 24 \text{ legs} \]
+
+Next, since each pair of snowshoes covers two legs, we need to find out how many pairs of snowshoes are required:
+
+\[ \frac{24 \text{ legs}}{2 \text{ legs per pair}} = 12 \text{ pairs of snowshoes} \]
+
+Given that each pair of snowshoes costs $12.00, the total cost for 12 pairs is:
+
+\[ 12 \text{ pairs} \times \$12.00 \text{ per pair} = \$144.00 \]
+
+Therefore, the answer is $144."
+gsm8k,fewshot_cot,490,490,True,"First, we need to calculate how many pears George has. Since he has 45% more pears than bananas, we can find the number of pears by calculating 45% of the number of bananas and then adding that to the number of bananas.
+
+Number of pears = Number of bananas + (45% of number of bananas)
+Number of pears = 200 + (0.45 * 200)
+Number of pears = 200 + 90
+Number of pears = 290
+
+Now, to find the total number of fruits, we add the number of pears and bananas together.
+
+Total number of fruits = Number of pears + Number of bananas
+Total number of fruits = 290 + 200
+Total number of fruits = 490
+
+The answer is 490."
+gsm8k,fewshot_cot,320,320,True,"First, we know that 50 people entered the restaurant in the morning. Then, 40 more people entered at around 10:00. This gives us a total of 50 + 40 = 90 people so far.
+
+Next, twice the number of people who entered at 10:00 came in later. Since 40 people entered at 10:00, twice this number is 2 * 40 = 80 people.
+
+After that, an additional 3 times as many people as those who entered first (the initial 50 people) entered the restaurant by evening. So, 3 * 50 = 150 people entered during this time.
+
+Now, let's add all these numbers together:
+- Morning entrants: 50
+- Entrants at 10:00: 40
+- Entrants after 10:00: 80
+- Evening entrants: 150
+
+Total number of people = 50 + 40 + 80 + 150 = 320
+
+The answer is 320."
+gsm8k,fewshot_cot,144,144,True,"ext{ sq ft}\). Since there are two such walls, their combined area is \(80 \text{ sq ft} \times 2 = 160 \text{ sq ft}\).
+- The east and west walls each have an area of \(5 \text{ ft} \times 8 \text{ ft} = 40 \text{ sq ft}\). Since there are two such walls, their combined area is \(40 \text{ sq ft} \times 2 = 80 \text{ sq ft}\).
+
+Adding these together gives the total area to be painted:
+\[160 \text{ sq ft} + 80 \text{ sq ft} = 240 \text{ sq ft}\]
+
+Next, we need to determine how many gallons of paint are required. Since one gallon covers 20 square feet, the number of gallons needed is:
+\[\frac{240 \text{ sq ft}}{20 \text{ sq ft/gallon}} = 12 \text{ gallons}\]
+
+Finally, since each gallon costs $12, the total cost is:
+\[12 \text{ gallons} \times \$12/\text{gallon} = \$144\]
+
+The answer is 144."
+gsm8k,fewshot_cot,15,15,True,"Eve originally had 20 pieces of pomelos. After giving some to her friend, she is left with 1/4 of the pomelos she originally had. This means she has \(20 \times \frac{1}{4} = 5\) pomelos left.
+
+To find out how many pomelos Eve gave away, we subtract the number of pomelos she has left from the original number she had:
+
+\(20 - 5 = 15\)
+
+So, Eve gave away 15 pomelos. The answer is 15."
+gsm8k,fewshot_cot,30,30,True,"First, let's determine the ages of each family member:
+
+1. Nani is 8 years old.
+2. Nani's brother is twice his age, so the brother is \(8 \times 2 = 16\) years old.
+3. Nani's sister is 25% younger than him, which means she is 75% of Nani's age. So, the sister is \(8 \times 0.75 = 6\) years old.
+
+Now, we add up their ages to find the total age of all three family members:
+\[8 + 16 + 6 = 30\]
+
+The answer is 30."
+gsm8k,fewshot_cot,7,7,True,"First, let's determine how many pieces of gum Jim chews during the school day. Since he chews one piece every 2 hours and the school day lasts 8 hours, he chews \( \frac{8}{2} = 4 \) pieces during the school day.
+
+Next, we add the pieces he chews on the way home and after dinner, which totals \( 4 + 1 + 1 = 6 \) pieces.
+
+Now, subtract the 6 pieces he has chewed from the original 20 pieces: \( 20 - 6 = 14 \).
+
+Jim then gives half of the remaining gum to his sister, so he gives away \( \frac{14}{2} = 7 \) pieces.
+
+Finally, subtract the 7 pieces given to his sister from the remaining 14 pieces: \( 14 - 7 = 7 \).
+
+So, the answer is 7."
+gsm8k,fewshot_cot,225,225,True,"First, let's calculate the amount of potato salad each child will eat. Since a child eats half as much as an adult, a child will eat \(10 \div 2 = 5\) lbs of potato salad.
+
+Next, we'll calculate the total amount of potato salad needed for the adults. With 20 adults, the total is \(20 \times 10 = 200\) lbs.
+
+Then, we'll calculate the total amount of potato salad needed for the children. With 5 children, the total is \(5 \times 5 = 25\) lbs.
+
+Finally, we add the amounts together to find the total amount of potato salad needed. So, \(200 + 25 = 225\) lbs.
+
+The answer is 225."
+gsm8k,fewshot_cot,4,8,False," savings from both pairs of jeans combined is $6. If he saved 1/3 of this from the jogger jeans and the rest from the tattered jeans, then the savings from the jogger jeans is \( \frac{1}{3} \times 6 = 2 \) dollars, and the savings from the tattered jeans is \( 6 - 2 = 4 \) dollars.
+
+Now, let's calculate the original price of the jogger jeans. The savings from the jogger jeans is the difference between the original price and the sale price:
+\[ J_{original} - 22 = 2 \]
+So,
+\[ J_{original} = 22 + 2 = 24 \]
+
+The original price of the jogger jeans is $24. The original price of the tattered jeans is $28. Therefore, the original price of the jogger jeans is $24, and the original price of the tattered jeans is $28. The difference between the original prices is:
+\[ 28 - 24 = 4 \]
+
+The answer is 4."
+gsm8k,fewshot_cot,22,22,True,"On Wednesday, John picks 4 bananas.
+On Thursday, he picks 6 bananas.
+On Friday, he picks triple the number of bananas he picked on Wednesday, which is 3 * 4 = 12 bananas.
+To find the total number of bananas John has, we add the bananas from each day together:
+Total = 4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22 bananas.
+The answer is 22."
+gsm8k,fewshot_cot,8,8,True,"First, we need to find out how many chocolate bars are in each of Peter's and Martha's boxes.
+
+For Peter:
+- He has 4 boxes.
+- His total is 64 chocolate bars.
+So, the number of chocolate bars per box for Peter is \( \frac{64}{4} = 16 \).
+
+For Martha:
+- She has 7 boxes.
+- Her total is 56 chocolate bars.
+So, the number of chocolate bars per box for Martha is \( \frac{56}{7} = 8 \).
+
+Now, we need to find out how many more chocolate bars Peter has in each box compared to Martha:
+- Difference = Number of chocolate bars per box for Peter - Number of chocolate bars per box for Martha
+- Difference = 16 - 8 = 8
+
+Therefore, Peter has 8 more chocolate bars in each box than Martha. The answer is 8."
+gsm8k,fewshot_cot,56,56,True,"D \).
+
+From the problem, we know:
+1. Each camel has 1 head and 2 humps.
+2. Each dromedary has 1 head and 1 hump.
+3. The total number of heads is 180.
+4. The total number of humps is 304.
+
+We can set up the following equations based on this information:
+\[ C + D = 180 \] (total number of heads)
+\[ 2C + D = 304 \] (total number of humps)
+
+We can solve these equations step by step. First, let's isolate \( D \) in the first equation:
+\[ D = 180 - C \]
+
+Next, substitute \( D \) in the second equation:
+\[ 2C + (180 - C) = 304 \]
+\[ 2C + 180 - C = 304 \]
+\[ C + 180 = 304 \]
+\[ C = 304 - 180 \]
+\[ C = 124 \]
+
+Now, substitute \( C = 124 \) back into the first equation to find \( D \):
+\[ 124 + D = 180 \]
+\[ D = 180 - 124 \]
+\[ D = 56 \]
+
+So, the number of dromedaries is \( 56 \).
+
+The answer is 56."
+gsm8k,fewshot_cot,30,30,True,"First, let's break down the time taken for each part:
+
+1. First side: 5 minutes.
+2. Second side: \(5 \times 2 = 10\) minutes.
+3. Third side: \(5 \times 2 = 10\) minutes.
+4. Fourth side: Half the time of the first side, so \(5 / 2 = 2.5\) minutes.
+5. Fifth side: Once the fifth side is done, all six sides are complete.
+
+Now, we add up the times:
+
+\[5 + 10 + 10 + 2.5 + 2.5 = 30\]
+
+So, the total time to solve the Rubik's cube is 30 minutes.
+
+The answer is 30."
+gsm8k,fewshot_cot,250,250,True,"On the second day, Sloane counted 50 more customers than the first day, so she counted \(100 + 50 = 150\) customers.
+
+By the third day, the total number of customers over the three days was 500. So, the number of customers counted on the third day can be found by subtracting the number of customers from the first two days from the total.
+
+Total customers counted by the third day = 500.
+Customers counted on the first and second days combined = \(100 + 150 = 250\).
+
+Therefore, the number of customers counted on the third day = \(500 - 250 = 250\).
+
+The answer is 250."
+gsm8k,fewshot_cot,9,9,True,"First, let's calculate the total number of chairs currently available:
+
+- High chairs: There are 8 high chairs.
+- Regular chairs: Since the restaurant has 5 times as many regular chairs as high chairs, we calculate \(5 \times 8 = 40\) regular chairs.
+
+So, the total number of chairs currently available is \(8 + 40 = 48\).
+
+Next, let's determine the total number of people attending the function:
+
+- Adults: 42 adults.
+- Babies: 15 babies.
+
+So, the total number of people attending is \(42 + 15 = 57\).
+
+Now, we need to find out how many more chairs Mia needs to get:
+
+- Chairs needed: 57 chairs (for all attendees).
+- Chairs currently available: 48 chairs.
+
+Therefore, the number of additional chairs needed is \(57 - 48 = 9\).
+
+The answer is 9."
+gsm8k,fewshot_cot,90000,90000,True,"Let's denote the cost of the lot as \( L \) and the cost of the house as \( H \). According to the problem, we have two pieces of information:
+
+1. The total cost of the house and the lot is $120,000.
+\[ H + L = 120,000 \]
+
+2. The house costs three times as much as the lot.
+\[ H = 3L \]
+
+We can substitute the second equation into the first equation to solve for \( L \):
+\[ 3L + L = 120,000 \]
+\[ 4L = 120,000 \]
+\[ L = \frac{120,000}{4} \]
+\[ L = 30,000 \]
+
+Now that we know the cost of the lot (\( L \)), we can find the cost of the house (\( H \)):
+\[ H = 3L = 3 \times 30,000 = 90,000 \]
+
+So, the house costs $90,000.
+
+The answer is 90,000."
+gsm8k,fewshot_cot,1,1,True,"First, we determine how many emails are not work emails: \(16 - 7 = 9\).
+
+Next, we find out how many of these non-work emails are to family: \(\frac{2}{3} \times 9 = 6\).
+
+Then, we calculate the number of emails to her boyfriend from the remaining emails: \(9 - 6 = 3\), and since one-third of the other emails are to her boyfriend, we confirm: \(\frac{1}{3} \times 3 = 1\).
+
+So, Robyn sends 1 email a day to her boyfriend. The answer is 1."
+gsm8k,fewshot_cot,480,480,True,"First, let's calculate the cost per session for one student: $1.50 per student.
+For 10 students, the cost per session would be: $1.50 * 10 = $15.
+Adding the studio rental cost per session gives us: $25 (rent) + $15 (students) = $40 per session.
+Since the studio is rented 3 days a week, the weekly cost is: $40 * 3 = $120.
+Assuming there are approximately 4 weeks in a month, the monthly cost is: $120 * 4 = $480.
+
+The answer is 480."
+gsm8k,fewshot_cot,288,288,True,"First, we need to calculate the total number of balloons filled:
+
+Total balloons = 10 packs * 30 balloons per pack = 300 balloons.
+
+Next, we subtract the number of balloons left at the end of the afternoon from the total number of balloons:
+
+Balloons thrown = Total balloons - Balloons left = 300 - 12 = 288 balloons.
+
+So, the answer is 288."
+gsm8k,fewshot_cot,38,40,False,"If Kelly was right and Courtney overstated the number of people by 20%, then the actual number of people is 80% of what Courtney reported. 
+
+Let \( x \) be the actual number of people who attended the concert. According to Kelly, \( x = 0.8 \times 48 \).
+
+So, \( x = 0.8 \times 48 = 38.4 \).
+
+Since the number of people must be a whole number, we round 38.4 to the nearest whole number, which is 38.
+
+The answer is 38."
+gsm8k,fewshot_cot,18000,18000,True,"First, we need to calculate the total minimum monthly payments for all debts:
+
+- Student loans: $300/month
+- Credit card: $200/month
+- Mortgage: $500/month
+
+Total minimum monthly payment = $300 + $200 + $500 = $1000/month
+
+Jessica wants to pay 50% more than the minimum, so we need to find 150% (100% + 50%) of the minimum payment:
+
+$1000 * 1.5 = $1500/month
+
+Now, to find out how much she pays in a year, we multiply the monthly amount by 12 months:
+
+$1500 * 12 = $18,000/year
+
+The answer is 18000."
+gsm8k,fewshot_cot,14,14,True,"ts in two weeks (14 days).
+
+For Ginger:
+- She eats 4 pieces a day.
+- In 14 days, she eats \(4 \times 14 = 56\) pieces.
+
+For Amy:
+- She eats 3 pieces a day.
+- In 14 days, she eats \(3 \times 14 = 42\) pieces.
+
+Now, we subtract the number of pieces eaten from their initial amount to find out how much candy they have left.
+
+For Ginger:
+- Initial amount: 100 pieces.
+- After eating: \(100 - 56 = 44\) pieces.
+
+For Amy:
+- Initial amount: 100 pieces.
+- After eating: \(100 - 42 = 58\) pieces.
+
+Finally, we find the difference between the amount of candy Amy has and the amount Ginger has left.
+
+Difference:
+- Amy's remaining candy: 58 pieces.
+- Ginger's remaining candy: 44 pieces.
+- Difference: \(58 - 44 = 14\) pieces.
+
+So, Amy has 14 more pieces of candy than Ginger after two weeks. The answer is 14."
+gsm8k,fewshot_cot,12,12,True,"First, let's calculate the total number of fruit pieces Kira bought:
+
+- Apples: 3
+- Bananas: 5
+- Oranges: 6
+
+Total pieces = 3 + 5 + 6 = 14 pieces.
+
+Now, if Lola ate 2 pieces of the fruit, we subtract those from the total:
+
+14 - 2 = 12 pieces left.
+
+So, the answer is 12."
+gsm8k,fewshot_cot,0,17500,False,"First, let's calculate the total cost to acquire the cars:
+Cost per car = $25,000
+Number of cars = 10
+Total acquisition cost = $25,000 * 10 = $250,000
+
+Next, we find out how much the company paid for each car:
+Percentage paid by the company = 30%
+Payment per car = $25,000 * 30% = $7,500
+
+Now, we calculate the total payment made by the company for all cars:
+Total payment = $7,500 * 10 = $75,000
+
+Then, we determine the profit from selling the cars:
+Profit = Total selling price - Total acquisition cost
+Profit = ($25,000 * 10) - $250,000 = $250,000 - $250,000 = $0
+
+Since there is no profit, James would not earn any commission:
+Commission earned = Profit * 10% = $0 * 10% = $0
+
+The answer is 0."
+gsm8k,fewshot_cot,67,67,True,"First, let's determine Anne's height. Since Albert is 36 inches tall and Anne is twice the size of Albert, Anne is \(36 \times 2 = 72\) inches tall.
+
+Next, we know that Jackie is now 2 inches shorter than Anne, so Jackie's current height is \(72 - 2 = 70\) inches.
+
+Jackie grew 3 inches over the summer, so her height before the summer was \(70 - 3 = 67\) inches.
+
+The answer is 67."
+gsm8k,fewshot_cot,20,20,True,"Initially, the bus had 20 people. After the first stop, 40 people entered, making the total number of people on the bus 20 + 40 = 60.
+
+On the second station, \(\frac{3}{4}\) of the 40 people who entered at the first station entered the bus. So, \(\frac{3}{4} \times 40 = 30\) people entered at the second station. Now, the total number of people on the bus is 60 + 30 = 90.
+
+At the third station, the number of passengers on the bus doubled. Therefore, the number of people on the bus became \(90 \times 2 = 180\).
+
+The bus has a capacity of 200 people, so the number of people still needed to fill the remaining spaces is \(200 - 180 = 20\).
+
+The answer is 20."
+gsm8k,fewshot_cot,98,98,True,"First, we need to determine the cost of a half-gallon jar. We know that a gallon jar costs $2 more than a half-gallon jar, and a gallon jar costs $5. Therefore, the cost of a half-gallon jar is:
+
+\[ \text{Cost of half-gallon jar} = \$5 - \$2 = \$3 \]
+
+Next, we calculate the total cost for 10 gallon jars:
+
+\[ \text{Total cost for 10 gallon jars} = 10 \times \$5 = \$50 \]
+
+Then, we calculate the total cost for 16 half-gallon jars:
+
+\[ \text{Total cost for 16 half-gallon jars} = 16 \times \$3 = \$48 \]
+
+Finally, we add the two amounts together to find the total amount of money spent:
+
+\[ \text{Total amount spent} = \$50 + \$48 = \$98 \]
+
+The answer is 98."
+gsm8k,fewshot_cot,4,4,True,"First, let's calculate the total miles needed for all four dogs based on the average:
+
+Since the average is 3 miles per day per dog and there are 4 dogs, the total miles needed per day for all dogs combined is:
+\[ 3 \text{ miles/dog} \times 4 \text{ dogs} = 12 \text{ miles} \]
+
+Now we know the first three dogs need a total of:
+\[ 1 \text{ mile} + 4 \text{ miles} + 3 \text{ miles} = 8 \text{ miles} \]
+
+To find out how many miles the fourth dog needs, we subtract the miles needed by the first three dogs from the total miles needed:
+\[ 12 \text{ miles} - 8 \text{ miles} = 4 \text{ miles} \]
+
+So, the last dog needs to walk 4 miles per day.
+
+The answer is 4."
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,positive,False,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,positive,positive,True,Positive
+sst2,direct,positive,positive,True,Positive
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,positive,False,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,positive,False,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,direct,negative,negative,True,Negative
+sst2,direct,negative,negative,True,Negative
+sst2,direct,positive,positive,True,Positive
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""the weight of the piece"" - This suggests the work has substance or importance.
+2. ""unerring professionalism of the chilly production"" - This indicates that the production quality is excellent and consistent.
+3. ""fascination embedded in the lurid topic"" - This implies that the subject matter is engaging and intriguing.
+
+Each component of the review is positive, suggesting that the reviewer finds value in the substance, quality, and appeal of the work.
+
+Therefore, the answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. **""as ` chick flicks ' go""**: This suggests that the movie is being compared to other movies in its genre.
+2. **""this one is pretty miserable""**: This is a direct negative statement about the quality of the movie.
+3. **""resorting to string-pulling""**: This phrase implies that the movie relies on contrived or artificial plot devices rather than genuine storytelling techniques.
+4. **""rather than legitimate character development and intelligent plotting""**: This further emphasizes the negative aspects by contrasting the movie's approach with what the reviewer considers better practices.
+
+Given these points, the overall sentiment is clearly negative.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. **""one of the best films of the year""**: This is a highly positive statement, indicating that the film is among the top films released in the year.
+
+2. **""with its exploration of the obstacles to happiness faced by five contemporary individuals""**: This suggests that the film deals with relatable and important themes, which is generally seen as a positive attribute for a film.
+
+3. **""... a psychological masterpiece""**: Describing a film as a ""masterpiece"" is a very positive assessment, implying that the film is of high quality and skillfully crafted.
+
+Each component of the review is positive, focusing on the film's quality, relatability, and depth. Therefore, the overall sentiment of this review is positive.
+
+The answer is **positive**."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""while ( hill ) has learned new tricks"" - This suggests that the subject (likely a character or a boxer) has improved or adapted in some way.
+2. ""the tricks alone are not enough"" - This implies that these improvements are insufficient on their own.
+3. ""to salvage this lifeless boxing film"" - The overall film is described as ""lifeless,"" indicating a lack of engagement or excitement.
+
+Considering these points, the review is predominantly negative because it emphasizes the insufficiency of the improvements and describes the film as ""lifeless.""
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"ts that the content is unconventional and imaginative, which can be seen as positive.
+2. **""but brilliant""**: This is a direct positive statement, indicating high praise for the quality of the work.
+3. **""the camera just kind of sits there and lets you look at this""**: This could imply a passive observational style, which might be appreciated for allowing the viewer to engage deeply with the content.
+4. **""its like you're going from one room to the next and none of them have any relation to the other""**: This description suggests a non-linear narrative or visual structure, which can be engaging if done well.
+
+Considering these points, the overall tone is positive, with emphasis on the creative and engaging nature of the work despite its unconventional approach.
+
+The answer is **positive**."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. The statement ""the film will play equally well on both the standard and giant screens"" suggests that the film is versatile and can be enjoyed on different screen sizes without losing quality or impact.
+
+2. This implies that the filmmakers have done a good job in balancing the visual elements of the film so that it works well in various settings.
+
+3. There is no negative connotation or criticism implied in this statement; instead, it highlights a positive aspect of the film.
+
+Given these points, the sentiment of the review is positive because it indicates that the film has been successfully adapted for different viewing experiences.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"Let's break this down step by step:
+
+1. The phrase ""it's just filler"" suggests that whatever is being referred to is not essential or necessary.
+2. ""Filler"" typically implies something that is unnecessary or unimportant in the context of the whole.
+3. The use of ""just"" further emphasizes the idea that it is minimal or insignificant.
+
+Given these points, the sentiment expressed is one of dismissal or criticism.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""not only are the special effects and narrative flow much improved"" - This is a positive statement indicating an improvement in key aspects of the film.
+2. ""and daniel radcliffe more emotionally assertive this time around as harry"" - This suggests that Daniel Radcliffe's performance has improved, which is another positive point.
+3. ""but the film conjures the magic of author j.k. rowling's books"" - This indicates that the film successfully captures the essence and magic of the source material, which is also a positive aspect.
+
+Since all parts of the review highlight improvements or positive attributes of the film, the overall sentiment is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"rused elements with nonsensical or exaggerated ones. This can be seen as a criticism, implying a lack of originality and coherence.
+
+2. **""seems positively decadent""**: The word ""decadent"" here likely refers to something luxurious or excessive but also possibly empty or hollow. In this context, it might imply that despite the flashy appearance, the content is lacking substance.
+
+3. **""cinematic flash and emptiness""**: This part directly points out that the work has a lot of visual appeal or dramatic flair (""flash"") but lacks depth or meaningful content (""emptiness"").
+
+Considering these elements together, the review seems to criticize the work for being overly reliant on surface-level appeal and cliches while failing to deliver meaningful or substantial content.
+
+**The answer is negative.**"
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. The phrase ""the film is about the art of ripping people off"" suggests a negative portrayal of the actions depicted in the film.
+2. The use of ""without ever letting them consciously know you have done so"" implies that these actions are manipulative and deceptive.
+3. The overall tone of the review indicates disapproval and criticism of the film's subject matter.
+
+Given this analysis, the sentiment expressed in the review is negative.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""if looking for a thrilling sci-fi cinematic ride"" - This suggests that the movie should be exciting and engaging.
+2. ""do n't settle for"" - This phrase implies that the movie does not meet the expected standards.
+3. ""this imposter"" - This is a strong negative term, suggesting that the movie is a fake or not what it claims to be.
+
+Considering these points, the overall sentiment is negative because the reviewer is advising against watching the movie and calling it an imposter.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"Let's break this down step by step:
+
+1. The review states: ""my thoughts were focused on the characters.""
+2. This indicates that the person's attention and engagement were primarily with the characters in the story.
+3. Focusing on characters often implies an interest in their development, actions, and interactions, which can be a positive aspect of reading or watching a story.
+4. There are no negative words or phrases used in this statement that suggest dissatisfaction or disappointment.
+
+Given these points, the sentiment appears to be positive as it suggests the reviewer was engaged and interested in the characters.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,positive,False,"ng spanish film""**: This phrase suggests that the film is engaging and well-made, which is generally positive.
+2. **""about the withering effects of jealousy""**: This describes a theme that can be seen as negative, as it deals with destructive emotions.
+3. **""in the life of a young monarch""**: This sets up the context of the story, which doesn't inherently carry a positive or negative connotation.
+4. **""whose sexual passion for her husband becomes an obsession""**: This part indicates a strong, potentially problematic emotion leading to an unhealthy situation, which can be viewed negatively.
+
+Considering these elements together, while the film is described as compelling, the core themes revolve around jealousy and obsession, which are generally negative emotions.
+
+The answer is **negative**."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""overall the film feels like a low-budget"" - This suggests the film has a limited budget, which might imply lower quality or fewer resources used in production.
+2. ""tv pilot"" - A TV pilot is often an early stage of a potential series, and the comparison implies the film might be similar to such a pilot.
+3. ""could not find a buyer to play it on the tube"" - This indicates that the film was not successful enough to be picked up by a television network for broadcast.
+
+Considering these points, the review seems to suggest that the film lacks the quality or appeal necessary to secure a television broadcast, which generally implies a negative perception.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"Let's break this down step by step:
+
+1. The phrase ""a magnificent drama"" suggests that the work being described is of high quality and impressive.
+2. ""Well worth tracking down"" implies that the viewer or reader should make an effort to find and watch/read it, as it has significant value.
+
+Given these points, the overall sentiment is positive because both parts of the phrase indicate that the drama is highly recommended and valuable.
+
+The answer is positive."
+sst2,zeroshot_cot,positive,positive,True," understand the sentiment:
+
+1. **""based on a devilishly witty script by heather mcgowan and niels mueller""** - This part suggests that the script is clever and well-written, which is generally positive.
+
+2. **""the film gets great laughs""** - This indicates that the film is successful in making the audience laugh, which is also positive.
+
+3. **""but never at the expense of its characters""** - This phrase implies that the humor does not come at the cost of developing the characters negatively or making them seem less important, which is another positive aspect.
+
+Considering these points, the overall tone of the review is positive. The reviewer appreciates both the quality of the writing and the balance maintained between humor and character development.
+
+Therefore, the answer is **positive**."
+sst2,zeroshot_cot,positive,negative,False,":
+
+1. **""for all the writhing and wailing, tears, rage and opium overdoses""**:
+   - ""Writhing and wailing,"" ""tears,"" and ""rage"" suggest intense emotional experiences.
+   - ""Opium overdoses"" imply extreme physical and emotional pain.
+
+2. **""there's no sense of actual passion being washed away in love's dissolution""**:
+   - This part suggests that despite the intense emotional experiences described earlier, the core passion or emotional connection does not seem to be lost.
+
+Given this breakdown, the review describes intense emotional experiences but concludes that these do not lead to the loss of passion. The overall tone seems more positive as it implies that the emotional intensity is still present even after such experiences.
+
+Therefore, the sentiment is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. **""the band's courage in the face of official repression is inspiring""** - This part is clearly positive. It suggests that the band's actions are admirable and moving.
+
+2. **""especially for aging hippies (this one included)""** - This phrase indicates that the reviewer identifies with the band as someone who values the same principles and finds inspiration in their actions. The use of ""(this one included)"" personalizes the statement, making it more relatable and positive.
+
+Combining these elements, the overall sentiment is positive because the review expresses admiration and inspiration derived from the band's actions.
+
+The answer is **positive**."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""with virtually no interesting elements for an audience to focus on"" - This suggests that the content lacks engaging or captivating aspects, which is generally not a positive attribute for a performance or show.
+
+2. ""chelsea walls is a triple-espresso endurance challenge"" - This implies that watching Chelsea Walls would be as challenging and tiring as drinking three espressos in one go, which is typically not a compliment unless the show is meant to be intense and demanding.
+
+Given these points, the overall sentiment of the review is negative. The reviewer is suggesting that the show is unengaging and difficult to watch, which are not desirable qualities for any form of entertainment.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the sentence to understand its sentiment:
+
+1. ""Green might want to hang onto that ski mask"" - This part suggests that someone named Green has a ski mask and might need it for something.
+2. ""as robbery may be the only way to pay for his next project"" - This implies that the only way for Green to fund his next project is through robbery.
+
+Considering these points, the sentence is hinting at illegal activities (robbery) as a means to achieve a goal (financing a project). This suggests a negative tone because it involves criminal behavior.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"ns were not met and the content is filled with unrealistic or nonsensical elements.
+
+2. **""not even ms. redgrave's noblest efforts can redeem it""**
+   - This part indicates that even the best efforts of a notable actress (Ms. Redgrave) cannot improve the quality of the work.
+
+3. **""from hopeless sentimentality""**
+   - ""hopeless sentimentality"" suggests that the work is overly emotional or sentimental in a way that is not effective or enjoyable.
+
+Combining these elements, the review is expressing disappointment and dissatisfaction with the film. The expectations set by the premise (""rumor of angels"") were not fulfilled, and the sentimentality was described as ""hopeless,"" meaning it was ineffective or unenjoyable.
+
+Therefore, the sentiment of this review is negative.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""a string of rehashed sight gags"" - This suggests that the content is repetitive and not original.
+2. ""based in insipid vulgarity"" - This indicates that the humor is considered tasteless and lacks depth.
+
+Given these points, the review is clearly expressing dissatisfaction with the content.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the sentence to understand its sentiment:
+
+1. The phrase ""to call the other side of heaven 'appalling'"" suggests that the entertainment being discussed is very bad or shocking.
+2. However, the sentence continues by saying that this characterization would be an understatement, meaning the entertainment is even worse than just being appalling.
+3. The key phrase here is ""how dangerous entertainments like it can be,"" which indicates that the entertainment poses a significant risk or danger.
+
+Given these points, the overall sentiment is negative, as it conveys a sense of danger and severity rather than any positive aspects.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""director of photography benoit delhomme shot the movie in delicious colors"" - This phrase suggests that the cinematography is visually appealing and enjoyable to the viewer. The use of ""delicious"" implies a positive and pleasing experience.
+
+2. ""and the costumes and sets are grand"" - This statement indicates that the visual elements of the film, specifically the costumes and sets, are impressive and of high quality.
+
+Both parts of the review highlight positive aspects of the film's production design and visual aesthetics. There are no negative comments or criticisms present.
+
+Therefore, the sentiment of this review is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,positive,positive,True,"Let's break this down step by step:
+
+1. The phrase ""a marvel"" suggests something extraordinary or amazing.
+2. ""Like none you've seen"" implies that the subject being described is unique and unlike anything the person has experienced before.
+
+Given these points, the overall impression is one of admiration and uniqueness, which are positive sentiments.
+
+Therefore, the answer is positive."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand the sentiment:
+
+1. ""anchored by friel and williams's exceptional performances"": This part of the sentence suggests that the performances of the actors Friel and Williams are outstanding, which is generally positive.
+
+2. ""the film's power lies in its complexity"": This indicates that the film's strength comes from its complex nature, which can be seen as a positive attribute for many viewers who appreciate depth and nuance in films.
+
+Given these two points, both of which are positive, we can conclude that the overall sentiment of the review is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,positive,positive,True,"ffort between the two.
+
+2. **""it's a memorable performance""**: This directly states that the performance is noteworthy and likely leaves a lasting impression on viewers.
+
+3. **""in a big, brassy, disturbing, unusual and highly successful film""**: The use of ""big"" and ""highly successful"" indicates that the film is impactful and commercially well-received. ""Brassy"" might suggest a bold or flashy style, which can be positive depending on the context. ""Disturbing"" and ""unusual"" could indicate that the film is thought-provoking and perhaps pushes boundaries, which is often seen positively in cinema.
+
+Considering these points, the overall tone of the review is positive. The review highlights the quality of the performance, the film's success, and its unique qualities.
+
+The answer is **positive**."
+sst2,zeroshot_cot,negative,positive,False,"unny but perilously slight"" to understand its sentiment:
+
+1. **""funny""**: This word is positive. It suggests that the content or performance is enjoyable and amusing.
+2. **""but""**: This conjunction indicates a contrast or limitation.
+3. **""perilously slight""**: This phrase suggests that something is small or insignificant in a potentially dangerous way. ""Perilously"" adds a negative connotation, implying a risk or danger.
+
+Combining these elements, the review acknowledges the humor but also points out that the humor might be insufficient or not substantial enough, possibly leaving the audience wanting more.
+
+Given this analysis, the overall sentiment leans towards a negative impression due to the implication that the humor is not strong enough despite being present.
+
+The answer is Negative."
+sst2,zeroshot_cot,negative,negative,True,"To determine the sentiment of the review ""there's no emotional pulse to solaris,"" let's break it down:
+
+1. **Context**: The review is about a film titled ""Solaris.""
+2. **Key Phrase**: ""no emotional pulse"" suggests that the film lacks emotional engagement or connection from the viewer.
+3. **Implication**: This phrase implies that the film fails to evoke emotions or feelings in the audience.
+
+Given these points, the review is expressing a negative opinion about the film's ability to connect emotionally with viewers.
+
+Therefore, the answer is **negative**."
+sst2,zeroshot_cot,positive,positive,True," its sentiment:
+
+1. **""whether writer-director anne fontaine's film is a ghost story, an account of a nervous breakdown, a trip down memory lane, all three or none of the above""**:
+   - This part suggests that the film encompasses multiple themes and interpretations, which can be seen as rich and complex.
+   
+2. **""it is as seductive as it is haunting""**:
+   - ""Seductive"" implies that the film is captivating and engaging.
+   - ""Haunting"" suggests that the film leaves a lasting impression and may evoke strong emotions.
+
+Given these points, the review is praising the film for its complexity and emotional impact. The use of positive descriptors like ""seductive"" and ""haunting"" indicates a favorable view of the film.
+
+Therefore, the sentiment of this review is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""another in-your-face"" - This phrase suggests something confrontational or direct, which can be seen as negative.
+2. ""wallow in the lower depths"" - This implies that the work is overly focused on negative aspects, which is generally not positive.
+3. ""made by people who have never sung those blues"" - This part suggests that the creators lack authenticity or genuine experience with the subject matter, which is a criticism and thus negative.
+
+Considering these elements, the overall tone of the review is critical and negative.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. **""villeneuve spends too much time""** - This phrase suggests that the director, Villeneuve, is focusing excessively on something, which can imply criticism.
+2. **""wallowing in""** - This term generally has a negative connotation, suggesting that the subject is dwelling on something in an unproductive way.
+3. **""bibi's generic angst""** - The use of ""generic"" here implies that the angst is not unique or particularly compelling, which is a negative assessment.
+4. **""there are a lot of shots of her gazing out windows""** - This detail reinforces the idea that the character is engaging in repetitive, uninteresting behavior.
+
+Given these points, the overall tone of the review is critical and negative.
+
+The answer is **negative**."
+sst2,zeroshot_cot,positive,positive,True,"To determine the sentiment of the review ""that is a compliment to kuras and miller,"" let's break it down:
+
+1. The phrase ""that is a compliment"" indicates that something positive has been said.
+2. The words ""to kuras and miller"" suggest that this compliment is directed at these individuals.
+
+Given that a compliment is inherently positive, the sentiment of the review is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"ence,"" let's break it down:
+
+1. **""wildly""** - This word suggests extreme variation or intensity, which can be seen as negative because it implies instability.
+2. **""inconsistent""** - This term indicates that something does not stay the same or follow a predictable pattern, which can also be perceived negatively as it might lead to confusion or frustration.
+3. **""emotional experience""** - This refers to feelings and emotions, which can be positive or negative depending on the context.
+
+Given these components, the phrase suggests an experience where emotions fluctuate wildly and unpredictably. This kind of experience is generally not considered pleasant or enjoyable, as it lacks stability and predictability in emotional states.
+
+Therefore, the sentiment is negative.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. **""and the lesson, in the end, is nothing new.""**
+   - This phrase suggests that the conclusion or the main takeaway from something is not original or unique.
+   - The implication here is that the reviewer finds this lack of originality somewhat disappointing or unimpressive.
+
+Given this analysis, the sentiment leans towards disappointment or dissatisfaction because the core message is that the lesson or conclusion is predictable and not novel.
+
+**The answer is Negative.**"
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. The phrase ""late marriage's stiffness"" suggests that the film or show might be perceived as rigid or formal, possibly not engaging enough in terms of emotional depth or relatability.
+2. ""is unlikely to demonstrate the emotional clout"" indicates that the film or show may struggle to evoke strong emotions or connect deeply with the audience on an emotional level.
+3. ""to sweep U.S. viewers off their feet"" implies that the film or show is not expected to have a powerful impact or create a significant emotional response among American viewers.
+
+Given these points, the overall tone of the review is critical and suggests that the film or show will not resonate strongly with the audience.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. **""expect the same-old""** - This suggests disappointment because the reviewer expected something familiar and potentially uninteresting.
+2. **"", lame-old slasher nonsense""** - The use of ""lame-old"" indicates that the reviewer finds the content unoriginal and of poor quality.
+3. **"", just with different scenery.""** - This implies that despite the change in setting, the core elements remain predictable and unexciting.
+
+Considering these points, the overall tone is one of disappointment and dissatisfaction with the predictability and lack of originality.
+
+Therefore, the answer is **Negative**."
+sst2,zeroshot_cot,positive,positive,True,"et's break down the review to understand its sentiment:
+
+1. ""the film's welcome breeziness"" - This suggests a positive aspect, indicating that the film has a refreshing quality.
+2. ""some unbelievably hilarious moments"" - This is clearly positive, as it points out that the film has very funny parts.
+3. ""most portraying the idiocy of the film industry"" - While this could be seen as negative, it seems to be presented more as a commentary on the film rather than a criticism of the movie itself.
+4. ""make it mostly worth the trip"" - This is a strong positive statement, suggesting that despite any flaws, the overall experience is worthwhile.
+
+Considering these points, the review leans more towards a positive sentiment, even though it acknowledges some potential drawbacks.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. The phrase ""it takes a certain kind of horror movie to qualify as"" suggests that there is a specific type of horror movie that can be considered particularly bad.
+2. The term ""worse than expected"" indicates disappointment and a negative experience.
+3. The word ""somehow"" emphasizes that the movie managed to meet this low standard unexpectedly.
+
+Given these points, the overall sentiment is clearly negative. The reviewer is expressing that ""Ghost Ship"" failed to meet even the low expectations typically associated with very poor horror movies.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"To determine the sentiment of the review ""affleck and jackson are good sparring partners,"" let's break it down:
+
+1. The phrase ""good sparring partners"" implies that Affleck and Jackson have a positive dynamic when working together.
+2. The word ""good"" is inherently positive, indicating a favorable relationship or interaction between the two individuals.
+
+Given these points, the sentiment expressed in the review is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. The statement ""the problem with this film is that it lacks focus"" suggests an issue with the film's direction or narrative.
+2. When a film lacks focus, it typically means the story is unclear, confusing, or does not maintain a clear direction throughout.
+3. This kind of criticism generally indicates dissatisfaction with the film's quality and coherence.
+
+Given these points, the sentiment expressed in the review is negative because it points out a significant flaw in the film.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand the sentiment:
+
+1. ""this movie is something of an impostor itself"" - This suggests the movie is not genuine or authentic, which is a negative statement.
+2. ""stretching and padding its material"" - This implies that the movie is artificially extending its content, which is generally seen as a negative quality in filmmaking.
+3. ""in a blur of dead ends and distracting camera work"" - ""Dead ends"" suggest that the plot or narrative does not lead anywhere useful or satisfying, and ""distracting camera work"" indicates that the visual aspects of the film are not engaging or enhancing the viewing experience.
+
+Given these points, the overall tone of the review is critical and negative.
+
+The answer is negative."
+sst2,zeroshot_cot,negative,positive,False,"Let's break this down step by step:
+
+1. The phrase ""good film"" indicates a positive sentiment towards the overall quality of the movie.
+2. However, the descriptor ""very glum"" suggests a negative aspect of the film, likely referring to its mood or tone.
+
+When combining these two elements, we need to consider which aspect might have more impact on the overall review. In many cases, the emotional tone of a film can be a significant factor in a viewer's experience and opinion.
+
+Given that ""glum"" implies a consistently dark or depressing atmosphere, it could potentially overshadow the positive aspects of the film for some viewers.
+
+The answer is Negative."
+sst2,zeroshot_cot,positive,positive,True,"down the review to understand its sentiment:
+
+1. **""it's one heck of a character study""**: This phrase suggests that the work is highly effective in exploring and developing characters. The use of ""heck"" implies enthusiasm and admiration for the quality of the character study.
+
+2. **""not of hearst or davies but of the unique relationship between them""**: This part indicates that while the primary focus is on the relationship rather than individual characters named Hearst and Davies, it still manages to provide a detailed and engaging exploration.
+
+Given these points, the review is praising the depth and quality of the character study, particularly focusing on the relationship aspect. There are no negative connotations present.
+
+Therefore, the sentiment is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. **""on the whole""**: This phrase suggests that the overall impression of the movie is negative.
+2. **""the movie lacks wit""**: This indicates that the movie fails to be clever or humorous in its dialogue or plot.
+3. **""feeling and believability""**: These terms suggest that the emotional depth and realism of the story are lacking.
+4. **""incessant coarseness and banality""**: This implies that the movie is overly crude and repetitive in its content.
+
+Each of these points contributes to a negative assessment of the movie. The review does not mention any positive aspects that could balance out these criticisms.
+
+Therefore, the sentiment of this review is negative.
+
+The answer is **negative**."
+sst2,zeroshot_cot,negative,negative,True,"stand the impact or effectiveness of his choices.
+3. **That he's shooting the latest System of a Down video**: System of a Down is known for their music videos which often feature intense visuals and high-energy production. By comparing Beck's work to this, it suggests that Beck may be trying to emulate a certain style without fully grasping its essence.
+
+Considering these points, the review seems to suggest that Beck is attempting to create something similar to what System of a Down does, but perhaps in a way that doesn't quite capture the same energy or authenticity.
+
+Given this analysis, the sentiment leans towards a negative impression because it implies that Beck might be misinterpreting or overdoing the style without truly understanding its core elements.
+
+The answer is **negative**."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. **""allows us to hope""**: This phrase suggests a positive expectation or anticipation.
+2. **""nolan is poised to embark""**: This indicates readiness and potential for action, which is generally positive.
+3. **""major career""**: This implies significant success and impact in the future, which is positive.
+4. **""commercial yet inventive filmmaker""**: This describes Nolan as both commercially successful and creatively innovative, which is a positive combination.
+
+Given these components, the overall sentiment of the review is positive.
+
+The answer is positive."
+sst2,zeroshot_cot,negative,negative,True,"ment agents from science fiction and conspiracy theories. In this context, it seems to be used metaphorically.
+
+2. **First Part**: ""if the first men in black was money"" suggests that the initial encounter or event involving these entities was related to financial matters or wealth.
+
+3. **Second Part**: ""the second is small change"" implies that the subsequent encounter or event involves something less significant or of lesser value compared to the first one.
+
+4. **Overall Implication**: The comparison from ""money"" to ""small change"" indicates a shift from something substantial to something trivial or insignificant.
+
+Given this analysis, the sentiment leans towards a negative direction because it suggests a diminishing or devaluing of the subject matter over time.
+
+**The answer is negative.**"
+sst2,zeroshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""hampered by a lifetime-channel kind of plot"" - This suggests that the plot feels overly formulaic or predictable, which is generally not a positive attribute for a film or show.
+
+2. ""a lead actress who is out of her depth"" - This implies that the lead actress may not be fully capable of handling the roles she is given, which can detract from the quality of the performance and the overall viewing experience.
+
+Given these two points, both of which suggest shortcomings in the production, we can conclude that the sentiment of this review is negative.
+
+The answer is negative."
+sst2,zeroshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""there is a fabric of complex ideas here"" - This suggests that the work contains intricate and detailed concepts, which is generally positive as it implies depth and complexity.
+2. ""and feelings that profoundly deepen them"" - This indicates that the emotions or feelings associated with these ideas enhance or enrich the overall experience, adding a layer of emotional depth.
+
+Combining these elements, the review suggests that the work not only presents complex ideas but also does so in a way that the feelings and emotions involved make these ideas more meaningful and impactful.
+
+Therefore, the sentiment is positive.
+
+The answer is positive."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. ""the weight of the piece"" - This suggests the piece has substance or importance.
+2. ""unerring professionalism of the chilly production"" - This indicates that the production is professional and well-executed, even if it has a cool or distant feel.
+3. ""fascination embedded in the lurid topic"" - This implies that the subject matter is engaging and intriguing.
+4. ""prove recommendation enough"" - This directly states that these elements are sufficient to recommend the piece.
+
+Given these points, the review is overall positive. The reviewer finds value in the substance, professionalism, and engagement of the piece despite its potentially cold tone.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""as 'chick flicks' go"" - This suggests that the movie is being compared to other movies in its genre.
+2. ""this one is pretty miserable"" - This is a clear negative statement.
+3. ""resorting to string-pulling"" - This phrase implies that the movie relies on contrived or artificial plot devices rather than genuine storytelling.
+4. ""rather than legitimate character development"" - This indicates that the movie lacks depth in its characters.
+5. ""and intelligent plotting"" - This further emphasizes the lack of quality in the movie's narrative structure.
+
+Given these points, the review is clearly expressing dissatisfaction and criticism. Therefore, the sentiment of this review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. ""one of the best films of the year"" - This is a highly positive statement, indicating that the film is among the top films released in the year.
+2. ""with its exploration of the obstacles to happiness faced by five contemporary individuals"" - This suggests that the film deals with relatable themes and characters, which is generally seen as a positive attribute.
+3. ""a psychological masterpiece"" - This is a very positive description, implying that the film is of high quality and skillfully crafted.
+
+Given these points, the overall sentiment of the review is clearly positive.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""while (hill) has learned new tricks"" - This suggests some improvement, which is positive.
+2. ""the tricks alone are not enough"" - This implies that despite the improvements, they are insufficient, which is negative.
+3. ""to salvage this lifeless boxing film"" - Describing the film as ""lifeless"" is clearly negative.
+
+Considering these points, the overall sentiment leans more towards the negative aspect of the review.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"which is generally positive.
+2. ""but brilliant"" - This is a clear positive statement, indicating that the reviewer found the content impressive.
+3. ""the camera just kind of sits there and lets you look at this"" - This could be interpreted as either neutral or slightly negative, depending on context, but it doesn't inherently convey a strong negative sentiment.
+4. ""its like you're going from one room to the next and none of them have any relation to the other"" - This might suggest a lack of coherence, which could be seen as negative, but in the context of surrealism, it might also be appreciated for its unconventional approach.
+
+Considering the overall tone and the presence of the word ""brilliant,"" the positive aspects outweigh the potential negative interpretation.
+
+The answer is positive."
+sst2,fewshot_cot,positive,positive,True,"Let's think step by step:
+
+1. The review mentions that the film will perform well on both standard and giant screens.
+2. This indicates versatility and quality, as the film can maintain its impact across different screen sizes.
+3. There are no negative comments about the film's performance on any screen type.
+
+Given this analysis, the sentiment is positive because the review highlights a positive aspect of the film's adaptability and quality.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The phrase ""it's just filler"" suggests that the subject being reviewed is not substantial or meaningful. It implies that the content lacks depth or value.
+2. The word ""filler"" typically has a negative connotation, often used to describe something that is unnecessary or uninteresting.
+3. Therefore, the sentiment expressed in this review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. ""special effects and narrative flow much improved"" - This is a positive statement, indicating an improvement in key aspects of the film.
+2. ""daniel radcliffe more emotionally assertive this time around as harry"" - This is also positive, suggesting that the actor has improved his performance.
+3. ""the film conjures the magic of author j.k. rowling's books"" - This is another positive statement, implying that the film successfully captures the essence and magic of the source material.
+
+Since all parts of the review contain positive elements, the overall sentiment of the review is positive.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review to understand the sentiment:
+
+1. ""a synthesis of cliches and absurdities"" - This phrase suggests that the work is predictable and lacks originality, which is generally a negative point.
+2. ""seems positively decadent"" - While ""decadent"" can sometimes be positive, in this context it seems to imply an excessive focus on appearance over substance, which is typically negative.
+3. ""cinematic flash and emptiness"" - This combination suggests that the work is visually impressive but ultimately lacking in depth or meaning, which is a negative assessment.
+
+Considering these points, the overall sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""it seems to me the film is about the art of ripping people off"" - This part is negative, as it suggests the film is about deception and exploitation.
+2. ""without ever letting them consciously know you have done so"" - This continues the negative sentiment, implying that the film manipulates its audience without their awareness.
+
+Considering these two parts together, the overall sentiment is negative because the review criticizes the film for being manipulative and deceptive.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The phrase ""if looking for a thrilling sci-fi cinematic ride"" suggests that the reviewer is setting up an expectation for a thrilling experience.
+2. The word ""imposter"" in the sentence ""don't settle for this imposter"" implies that what is being described does not meet the expected standards for a thrilling sci-fi experience.
+3. The overall tone of the review is one of disappointment and warning against settling for something that fails to deliver on its promise.
+
+Given these points, the sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's think step by step:
+
+1. The review mentions that the thoughts were focused on the characters.
+2. This indicates engagement and interest in the story or performance.
+3. Being engaged and interested in characters is generally a positive experience for most viewers or readers.
+
+The answer is positive."
+sst2,fewshot_cot,negative,positive,False,"Let's analyze this review step by step:
+
+1. **Content Analysis**: The review describes a Spanish film that focuses on the theme of jealousy affecting a young monarch's life. It mentions the character's sexual passion for her husband turning into an obsession.
+   
+2. **Emotional Tone**: The use of words like ""withering"" suggests a negative impact or deterioration, which is generally not a positive sentiment.
+
+3. **Overall Impression**: While the review does not explicitly state whether the film is good or bad, the description leans towards a negative portrayal of the main character's situation due to the focus on jealousy and obsession.
+
+Given these points, the overall sentiment of the review seems to be negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The review mentions ""low-budget,"" which generally implies limitations in quality or scope.
+2. It also states that the film ""could not find a buyer to play it on the tube,"" suggesting that the film was not good enough to be broadcasted on television.
+3. The phrase ""feels like a TV pilot"" can imply that the film lacks the polish or quality expected of a theatrical release.
+
+Given these points, the sentiment is negative. Therefore, the answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's think step by step:
+
+1. The phrase ""magnificent drama"" indicates high praise for the work.
+2. ""Well worth tracking down"" suggests that the reviewer believes others should seek out this work, which is a positive recommendation.
+3. Combining these elements, the overall sentiment is one of appreciation and recommendation.
+
+Therefore, the answer is positive."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. ""based on a devilishly witty script"" - This suggests that the script is clever and humorous, which is a positive aspect.
+2. ""the film gets great laughs"" - This indicates that the film is successful in making the audience laugh, another positive point.
+3. ""but never at the expense of its characters"" - This implies that the humor does not come at the cost of developing the characters, which is generally seen as a positive quality in storytelling.
+
+Considering these points, the overall sentiment of the review is positive. Therefore, the answer is positive."
+sst2,fewshot_cot,negative,negative,True,"hich could be seen as dramatic and intense.
+2. **""there's no sense of actual passion being washed away in love's dissolution.""** - This part indicates that despite the apparent emotional turmoil, the core element of passion is missing.
+
+Given this breakdown:
+- The review mentions intense emotions like writhing, wailing, tears, rage, and opium overdoses, which might initially suggest a strong negative sentiment.
+- However, the key phrase ""there's no sense of actual passion being washed away in love's dissolution"" suggests that these intense emotions do not lead to a genuine experience of passion or love.
+
+Since the review ultimately concludes that the emotional journey lacks the core element of passion, the overall sentiment leans towards a negative perspective.
+
+The answer is **negative**."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""The band's courage in the face of official repression is inspiring"" - This part is positive, as it highlights the band's bravery and the inspiration they provide.
+2. ""especially for aging hippies (this one included)"" - This part is also positive, as it shows that the reviewer identifies with the band and finds their story relatable and inspiring.
+
+Considering both parts of the review, the overall sentiment is positive.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""with virtually no interesting elements"" - This suggests that the movie lacks engaging or captivating aspects.
+2. ""for an audience to focus on"" - This implies that the audience struggles to find anything to pay attention to.
+3. ""chelsea walls is a triple-espresso endurance challenge"" - This metaphor suggests that watching the movie is difficult and tiring, much like drinking a strong coffee would be.
+
+Considering these points, the review is clearly expressing dissatisfaction and highlighting the movie's shortcomings. Therefore, the sentiment of this review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""Green might want to hang onto that ski mask"" - This suggests a potential danger or risk, which is generally negative.
+2. ""as robbery may be the only way to pay for his next project"" - This implies financial difficulty and the necessity of illegal activities to fund a project, which is also negative.
+
+Considering these points, the overall sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"hrase suggests that the subject being reviewed is a mix of fantasy and reality, but ultimately comes across as unrealistic and unconvincing (""sudsy tub of supernatural hokum""). This is a negative statement.
+
+2. ""not even Ms. Redgrave's noblest efforts can redeem it"" - This indicates that even the best efforts of a notable actress (Ms. Redgrave) cannot improve the quality of the work being reviewed. This is another negative statement.
+
+3. ""from hopeless sentimentality"" - This final part suggests that the work is overly sentimental in a way that is seen as problematic or unenjoyable (""hopelessly sentimental""). This is also a negative statement.
+
+Considering all parts of the review, each component contributes negatively to the overall assessment of the work. Therefore, the answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The phrase ""a string of rehashed sight gags"" suggests that the content is repetitive and not original.
+2. ""Based in insipid vulgarity"" indicates that the content is considered crude and lacks depth or appeal.
+3. Combining these elements, the overall tone is critical and negative.
+
+Therefore, the sentiment is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. The phrase ""appalling"" is a strong negative term, indicating something extremely bad or shocking.
+2. The phrase ""dangerous entertainments"" suggests that the work in question could have harmful effects.
+3. The overall tone implies that the reviewer finds the work not only negative but potentially harmful.
+
+Given this analysis, the sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""director of photography benoit delhomme shot the movie in delicious colors"" - This phrase suggests that the cinematography was visually appealing and enjoyable, which is a positive aspect.
+2. ""and the costumes and sets are grand"" - This statement indicates that the costumes and set designs were impressive and likely contributed positively to the overall experience of watching the movie.
+
+Since both parts of the review highlight positive aspects of the film's production values, the overall sentiment of this review is positive.
+
+The answer is positive."
+sst2,fewshot_cot,positive,positive,True,"Let's think step by step:
+
+1. The phrase ""a marvel"" suggests something extraordinary or amazing.
+2. ""Like none you've seen"" implies that the subject is unique and unlike anything the reviewer has experienced before.
+3. These phrases together suggest a highly positive reaction to the subject being reviewed.
+
+Therefore, the sentiment is positive.
+
+The answer is positive."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review to understand the sentiment:
+
+1. ""anchored by friel and williams's exceptional performances"" - This part of the review is positive, as it praises the performances of the actors.
+2. ""the film's power lies in its complexity"" - This statement suggests that the film has depth and is not simplistic, which is generally seen as a positive attribute for a film.
+
+Given these points, the overall sentiment of the review is positive.
+
+The answer is positive."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. ""belongs to Daniel Day-Lewis as much as it belongs to Martin Scorsese"" - This suggests that both the director and the lead actor have contributed significantly to the film, which is generally a positive statement.
+2. ""it's a memorable performance"" - This directly indicates that the performance was noteworthy and impactful, which is positive.
+3. ""in a big, brassy, disturbing, unusual and highly successful film"" - These descriptors suggest that the film is engaging and has a unique quality (""big,"" ""brassy,"" ""disturbing,"" ""unusual"") and is commercially successful (""highly successful""), all of which are typically positive attributes for a film.
+
+Given these points, the overall sentiment of the review is positive.
+
+The answer is positive."
+sst2,fewshot_cot,negative,positive,False,"Let's break down the review ""funny but perilously slight"" to determine the sentiment:
+
+1. **Positive Aspect**: The word ""funny"" indicates that the subject has humor, which is generally positive.
+2. **Negative Aspect**: The phrase ""perilously slight"" suggests that the subject lacks substance or depth, which is negative.
+
+When we combine these two aspects, the negative aspect seems to outweigh the positive one because it points out a significant limitation in the subject's quality or impact.
+
+Therefore, the overall sentiment of this review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The phrase ""no emotional pulse"" suggests that the subject (in this case, Solaris) lacks emotional engagement or connection.
+2. In reviews, the absence of something positive is often interpreted as a negative aspect.
+3. Therefore, the sentiment here is negative because it implies that Solaris fails to evoke emotions or feelings in the viewer.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""whether writer-director anne fontaine's film is a ghost story, an account of a nervous breakdown, a trip down memory lane, all three or none of the above"" - This part suggests that the film is multi-faceted and can be interpreted in various ways, which is generally seen as a positive attribute for a film.
+
+2. ""it is as seductive as it is haunting"" - The use of ""seductive"" implies that the film is captivating and engaging, while ""haunting"" suggests that it leaves a lasting impression on the viewer. Both of these are typically positive descriptors for a film.
+
+Given these points, the overall sentiment of the review is positive. Therefore, the answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""another in-your-face"" suggests that this is not the first time something similar has happened, implying repetition.
+2. ""wallow in the lower depths"" indicates that the work is focused on negative or depressing themes, which is generally seen as a negative aspect.
+3. ""made by people who have never sung those blues"" implies that the creators do not truly understand or experience what they are depicting, which can be seen as a criticism of their authenticity or lack thereof.
+
+Considering these points, the overall sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. **""Villeneuve spends too much time""** - This suggests that the director focuses excessively on something, which can be seen as a criticism.
+2. **""wallowing in Bibi's generic angst""** - This implies that the character's emotional state is not unique or particularly compelling, which is generally a negative point.
+3. **""there are a lot of shots of her gazing out windows""** - This detail might suggest a lack of dynamic action or progression in the narrative, which could be interpreted negatively.
+
+Considering these points, the overall sentiment leans towards a negative review.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's think step by step:
+
+1. The review mentions ""a compliment,"" which indicates a positive sentiment.
+2. The review is directed at ""kuras and miller,"" suggesting that the compliment is for their work or performance.
+3. There are no negative words or phrases present in the review.
+
+Therefore, the answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""wildly"" suggests an extreme nature.
+2. ""inconsistent"" implies that the experience did not stay within a single emotional range but changed significantly.
+3. ""emotional experience"" refers to the feelings evoked by the subject.
+
+Given these points, the review indicates that the subject provided a range of emotions that were not consistent, which can be seen as either positive or negative depending on the context. However, since the term ""wildly"" often carries a negative connotation when describing inconsistency, it leans towards a negative interpretation.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The phrase ""nothing new"" suggests a lack of originality or innovation.
+2. In reviews, this often implies disappointment or a sense of letdown, as audiences generally prefer content that offers something fresh or unique.
+3. Therefore, this statement leans towards a negative sentiment.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""late marriage's stiffness"" - This suggests that the film might be rigid or not engaging.
+2. ""is unlikely to demonstrate the emotional clout"" - This indicates that the film may lack the ability to evoke strong emotions in the audience.
+3. ""to sweep U.S. viewers off their feet"" - This phrase typically means to captivate or impress the audience greatly.
+
+Combining these elements, the review suggests that the film is not likely to be emotionally engaging or impressive enough to captivate a wide audience.
+
+Therefore, the sentiment of this review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The phrase ""same-old"" suggests a lack of originality.
+2. ""Lame-old"" is a clear negative term indicating something uninteresting or unsatisfying.
+3. ""Slasher nonsense"" refers to a genre that might be enjoyable for some, but here it's used in a context that implies it's predictable and not engaging.
+4. ""Just with different scenery"" suggests a lack of innovation or creativity.
+
+Considering these points, the overall sentiment is negative.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True," ""the film's welcome breeziness"" - This suggests a positive sentiment, as ""welcome"" indicates something pleasant or enjoyable.
+2. ""and some unbelievably hilarious moments"" - This is clearly positive, as humor is generally seen as a positive attribute in films.
+3. ""most portraying the idiocy of the film industry"" - While this could be seen as a critique of the film industry itself, in the context of the review, it seems to be part of what makes the film ""unbelievably hilarious,"" which is still a positive aspect for the viewer.
+4. ""make it mostly worth the trip"" - This conclusion suggests that despite any potential flaws, the overall experience is worthwhile, which is a positive statement.
+
+Considering all these points, the review is predominantly positive. Therefore, the answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""it takes a certain kind of horror movie to qualify as ` worse than expected`"" - This suggests that the movie is so bad that it fails even the low expectations one might have for a horror movie.
+2. ""but ghost ship somehow manages to do exactly that"" - This indicates that the movie not only meets but exceeds the low expectations set for a horror movie in terms of being disappointing.
+
+Given these points, the overall sentiment is clearly negative. Therefore, the answer is negative."
+sst2,fewshot_cot,positive,positive,True,"t's break this down step by step:
+
+1. **Identify the key elements**: The review mentions that Affleck and Jackson are ""good sparring partners."" This implies that their interaction or performance together is effective and enjoyable to watch.
+
+2. **Analyze the language used**: The word ""good"" is explicitly positive, indicating that their partnership is successful and well-received.
+
+3. **Consider the context**: In the context of acting or performing together, being described as ""good sparring partners"" suggests that they complement each other well and create a dynamic that enhances the overall experience for the audience.
+
+4. **Conclusion**: Given the positive connotation of the phrase ""good sparring partners,"" the sentiment of this review is positive.
+
+Therefore, the answer is **positive**."
+sst2,fewshot_cot,negative,negative,True,"Let's think step by step:
+
+1. The review states, ""the problem with this film is that it lacks focus.""
+2. The phrase ""lacks focus"" implies that the film does not have a clear or well-defined direction or purpose.
+3. This is generally considered a negative aspect in filmmaking, as clarity and focus are important for engaging the audience and effectively conveying the intended message or story.
+4. Therefore, the sentiment expressed in this review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""this movie is something of an impostor itself"" - This suggests that the movie is not genuine or authentic, which is a negative statement.
+2. ""stretching and padding its material"" - This implies that the movie is artificially extending its content, which is generally seen as a negative aspect.
+3. ""in a blur of dead ends and distracting camera work"" - ""Dead ends"" suggest that the plot or direction of the movie is confusing or unproductive, and ""distracting camera work"" indicates that the visual aspects of the film are taking away from the viewing experience rather than enhancing it.
+
+Given these points, the overall sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,positive,False,"Let's break this down step by step:
+
+1. **Identify the key phrases**: 
+   - ""good film"" indicates a positive aspect.
+   - ""very glum"" suggests a negative aspect.
+
+2. **Weigh the sentiments**:
+   - ""good film"" is a strong positive statement.
+   - ""very glum"" is a strong negative statement.
+
+3. **Consider the overall impact**:
+   - While the film is described as good, the term ""very glum"" might be seen as a significant drawback for many viewers, especially if it affects their enjoyment of the film.
+
+4. **Make a judgment**:
+   - Given that ""very glum"" could significantly detract from the viewing experience despite the film being good, the overall sentiment leans more towards the negative.
+
+The answer is **negative**."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review to determine the sentiment:
+
+1. ""one heck of a character study"" - This phrase suggests that the work is impressive and well-executed, which is positive.
+2. ""not of hearst or davies"" - This indicates that the focus is on something else, but doesn't inherently carry a positive or negative connotation.
+3. ""but of the unique relationship between them"" - This suggests that the work explores an interesting aspect, which is generally seen as positive.
+
+Considering these points, the overall tone of the review is positive, as it praises the work for being a strong character study and highlights an interesting relationship.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""the movie lacks wit"" - This is a negative statement.
+2. ""lacks feeling"" - Another negative statement.
+3. ""lacks believability"" - Yet another negative statement.
+4. ""compensate for its incessant coarseness and banality"" - These are also negative statements, indicating that the movie fails to overcome these negative aspects.
+
+Since all the key phrases in the review are negative, the overall sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"- ""blaring heavy metal"" indicates loud and intense music.
+   - ""under the illusion that he's shooting the latest System of a Down video"" implies the director believes he is creating something similar to System of a Down's style but might not be doing it effectively.
+
+2. **Analyze the Tone**:
+   - The phrase ""under the illusion"" suggests a misunderstanding or misjudgment on the part of the director.
+   - ""much of the time"" indicates that this is a recurring issue rather than an isolated incident.
+   - The overall tone seems critical and somewhat dismissive of the director's approach.
+
+3. **Determine Sentiment**:
+   - Given the critical nature of the description and the implication that the director may not be achieving his intended effect, the sentiment is negative.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review step by step:
+
+1. **""allows us to hope""** - This phrase suggests a positive outlook or expectation.
+2. **""nolan is poised to embark on a major career""** - This indicates future success and potential.
+3. **""commercial yet inventive filmmaker""** - This describes the filmmaker positively, combining commercial success with creative innovation.
+
+Given these points, the overall sentiment of the review is positive.
+
+The answer is positive."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review to understand its sentiment:
+
+1. ""if the first men in black was money,"" - This part suggests that the first film was successful or profitable.
+2. ""the second is small change."" - This implies that the second film is not as successful or profitable as the first one.
+
+Considering these two parts together, the review is comparing the two films and suggesting that the second one is less successful than the first.
+
+Given this analysis, the sentiment of the review is negative.
+
+The answer is negative."
+sst2,fewshot_cot,negative,negative,True,"Let's break down the review step by step:
+
+1. ""hampered by"" suggests that something is limiting or hindering the work.
+2. ""lifetime-channel kind of plot"" implies a predictable or clichéd storyline.
+3. ""lead actress who is out of her depth"" means the actress is not well-suited for the role or does not perform well in it.
+
+Given these points, the overall sentiment is negative because the review points out limitations and shortcomings without mentioning any positive aspects.
+
+The answer is negative."
+sst2,fewshot_cot,positive,positive,True,"Let's break down the review to understand its sentiment:
+
+1. ""There is a fabric of complex ideas here"" - This suggests that the work contains intricate and detailed concepts, which is generally seen as positive.
+2. ""and feelings that profoundly deepen them"" - This indicates that the emotions conveyed are significant and enhance the overall experience, which is also positive.
+
+Considering these points, the review seems to appreciate the depth and emotional impact of the work.
+
+The answer is positive."
